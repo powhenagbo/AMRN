@@ -1,0 +1,1482 @@
+gene_1,gene_2,phi,p_value,n_cooccurrences,scatter_score,classification
+EC-18,Escherichia coli parC conferring resistance to fluoroquinolones,0.3049,0.0309,2,0.0005,CONSERVED
+CTX-M-15,QnrS1,0.5654,0.003,2,0.007,CONSERVED
+AAC(6')-Ib-cr6,Escherichia coli parC conferring resistance to fluoroquinolones,0.3049,0.0309,2,0.0339,CONSERVED
+AAC(6')-Ib-cr6,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0.3401,0.0212,2,0.0339,CONSERVED
+AAC(6')-Ib-cr6,Escherichia coli PtsI with mutation conferring resistance to fosfomycin,0.4286,0.0091,2,0.0339,CONSERVED
+AAC(3)-IIe,AAC(6')-Ib-cr6,1.0,0.0002,2,0.0339,CONSERVED
+AAC(3)-IIe,Escherichia coli parC conferring resistance to fluoroquinolones,0.3049,0.0309,2,0.0339,CONSERVED
+AAC(3)-IIe,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0.3401,0.0212,2,0.0339,CONSERVED
+AAC(3)-IIe,Escherichia coli PtsI with mutation conferring resistance to fosfomycin,0.4286,0.0091,2,0.0339,CONSERVED
+AAC(3)-IIe,CMY-132,0.4543,0.0073,2,0.0339,CONSERVED
+AAC(6')-Ib-cr6,CMY-132,0.4543,0.0073,2,0.0339,CONSERVED
+OXA-1,dfrA1,0.4622,0.0,12,0.2854,CONSERVED
+OXA-1,SAT-2,0.4622,0.0,12,0.2854,CONSERVED
+mphA,tet(A),0.6999,0.0012,2,0.2903,CONSERVED
+CTX-M-27,tet(A),1.0,0.0002,2,0.2903,CONSERVED
+APH(6)-Id,tet(A),0.6999,0.0012,2,0.2903,CONSERVED
+aadA5,sul2,0.4113,0.0123,2,0.2903,CONSERVED
+aadA5,tet(A),0.8123,0.0006,2,0.2903,CONSERVED
+dfrA17,sul2,0.4113,0.0123,2,0.2903,CONSERVED
+CTX-M-27,mphA,0.6999,0.0012,2,0.2903,CONSERVED
+CTX-M-27,aadA5,0.8123,0.0006,2,0.2903,CONSERVED
+CTX-M-27,dfrA17,0.8123,0.0006,2,0.2903,CONSERVED
+APH(6)-Id,mphA,0.4792,0.0071,2,0.2903,CONSERVED
+CTX-M-27,qacEdelta1,0.5654,0.003,2,0.2903,CONSERVED
+CTX-M-27,sul1,0.5207,0.0042,2,0.2903,CONSERVED
+dfrA17,tet(A),0.8123,0.0006,2,0.2903,CONSERVED
+APH(6)-Id,dfrA17,0.5624,0.0036,2,0.2903,CONSERVED
+mphA,sul2,0.344,0.0237,2,0.2903,CONSERVED
+APH(6)-Id,CTX-M-27,0.6999,0.0012,2,0.2903,CONSERVED
+sul2,tet(A),0.5207,0.0042,2,0.2903,CONSERVED
+APH(6)-Id,aadA5,0.5624,0.0036,2,0.2903,CONSERVED
+APH(3'')-Ib,CTX-M-27,0.6999,0.0012,2,0.2903,CONSERVED
+APH(3'')-Ib,aadA5,0.5624,0.0036,2,0.2903,CONSERVED
+APH(3'')-Ib,dfrA17,0.5624,0.0036,2,0.2903,CONSERVED
+APH(3'')-Ib,mphA,0.4792,0.0071,2,0.2903,CONSERVED
+CTX-M-27,sul2,0.5207,0.0042,2,0.2903,CONSERVED
+sul1,tet(A),0.5207,0.0042,2,0.2903,CONSERVED
+qacEdelta1,tet(A),0.5654,0.003,2,0.2903,CONSERVED
+APH(3'')-Ib,tet(A),0.6999,0.0012,2,0.2903,CONSERVED
+EC-14,mdtG,0.338,0.0013,8,0.3059,CONSERVED
+EC-14,mdtA,0.3145,0.0013,9,0.3318,CONSERVED
+EC-14,mdtM,0.334,0.0007,9,0.3318,CONSERVED
+AcrF,EC-14,0.3933,0.0001,9,0.3318,CONSERVED
+AcrS,EC-14,0.3208,0.0011,9,0.3318,CONSERVED
+AcrE,EC-14,0.3208,0.0011,9,0.3318,CONSERVED
+catI,dfrA1,0.4387,0.0001,11,0.4035,CONSERVED
+SAT-2,catI,0.4387,0.0001,11,0.4035,CONSERVED
+EC-8,qacEdelta1,0.3284,0.0279,2,0.4519,CONSERVED
+SAT-2,tet(B),0.5093,0.0,14,0.4601,CONSERVED
+dfrA1,tetR,0.5093,0.0,14,0.4601,CONSERVED
+dfrA1,tet(B),0.5093,0.0,14,0.4601,CONSERVED
+SAT-2,tetR,0.5093,0.0,14,0.4601,CONSERVED
+AcrS,Escherichia coli PtsI with mutation conferring resistance to fosfomycin,0.3401,0.0005,10,0.5464,CONSERVED
+AcrF,Escherichia coli PtsI with mutation conferring resistance to fosfomycin,0.4169,0.0,10,0.5464,CONSERVED
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0.7935,0.0,10,0.5464,CONSERVED
+AcrE,Escherichia coli PtsI with mutation conferring resistance to fosfomycin,0.3401,0.0005,10,0.5464,CONSERVED
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin,mdtG,0.435,0.0,10,0.5464,CONSERVED
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin,mdtB,0.3077,0.0014,10,0.5464,CONSERVED
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin,gadW,0.3203,0.0009,10,0.5464,CONSERVED
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin,mdtA,0.3333,0.0006,10,0.5464,CONSERVED
+CMY-132,mdtA,0.3145,0.0013,9,0.5806,CONSERVED
+CMY-132,gadW,0.3021,0.0019,9,0.5806,CONSERVED
+CMY-132,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0.7486,0.0,9,0.5806,CONSERVED
+CMY-132,Escherichia coli PtsI with mutation conferring resistance to fosfomycin,0.9435,0.0,9,0.5806,CONSERVED
+AcrF,CMY-132,0.3933,0.0001,9,0.5806,CONSERVED
+CMY-132,mdtG,0.4104,0.0001,9,0.5806,CONSERVED
+AcrS,CMY-132,0.3208,0.0011,9,0.5806,CONSERVED
+AcrE,CMY-132,0.3208,0.0011,9,0.5806,CONSERVED
+Escherichia coli ampC beta-lactamase,SAT-2,0.4489,0.0,16,0.6161,CONSERVED
+Escherichia coli ampC beta-lactamase,dfrA1,0.4489,0.0,16,0.6161,CONSERVED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,Escherichia coli parC conferring resistance to fluoroquinolones,0.4592,0.0001,9,0.6188,CONSERVED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,Escherichia coli gyrA conferring resistance to fluoroquinolones,0.3123,0.0037,9,0.6188,CONSERVED
+CMY-132,Escherichia coli gyrA conferring resistance to fluoroquinolones,0.4384,0.0001,8,0.6194,CONSERVED
+CMY-132,Escherichia coli parC conferring resistance to fluoroquinolones,0.5803,0.0,8,0.6194,CONSERVED
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin,Escherichia coli parC conferring resistance to fluoroquinolones,0.5379,0.0,8,0.6194,CONSERVED
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin,Escherichia coli gyrA conferring resistance to fluoroquinolones,0.3979,0.0004,8,0.6194,CONSERVED
+Escherichia coli ampC beta-lactamase,OXA-1,0.4886,0.0,19,0.6328,CONSERVED
+OXA-1,tetR,0.7916,0.0,21,0.6444,CONSERVED
+OXA-1,tet(B),0.7916,0.0,21,0.6444,CONSERVED
+SAT-2,dfrA1,1.0,0.0,19,0.6449,CONSERVED
+OXA-1,gadW,0.3824,0.0001,20,0.6649,CONSERVED
+Escherichia coli ampC beta-lactamase,catI,0.4435,0.0,17,0.6652,CONSERVED
+ANT(3'')-IIa,OXA-1,0.6846,0.0,19,0.6685,CONSERVED
+Escherichia coli ampC beta-lactamase,tet(B),0.4835,0.0,21,0.6721,CONSERVED
+Escherichia coli ampC beta-lactamase,tetR,0.4835,0.0,21,0.6721,CONSERVED
+ANT(3'')-IIa,SAT-2,0.6815,0.0,17,0.6766,CONSERVED
+ANT(3'')-IIa,dfrA1,0.6815,0.0,17,0.6766,CONSERVED
+OXA-1,catI,0.8267,0.0,19,0.6771,CONSERVED
+gadW,tetR,0.3138,0.0015,21,0.6795,CONSERVED
+gadW,tet(B),0.3138,0.0015,21,0.6795,CONSERVED
+Escherichia coli emrE,catI,0.3581,0.0002,19,0.6892,CONSERVED
+Escherichia coli emrE,OXA-1,0.4366,0.0,22,0.6927,CONSERVED
+AcrF,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0.468,0.0,14,0.6973,CONSERVED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,mdtG,0.4902,0.0,14,0.6973,CONSERVED
+Escherichia coli emrE,tetR,0.3576,0.0003,23,0.7024,SCATTERED
+Escherichia coli emrE,tet(B),0.3576,0.0003,23,0.7024,SCATTERED
+ANT(3'')-IIa,tetR,0.6956,0.0,21,0.7025,SCATTERED
+ANT(3'')-IIa,tet(B),0.6956,0.0,21,0.7025,SCATTERED
+ANT(3'')-IIa,Escherichia coli emrE,0.3122,0.0015,22,0.7114,SCATTERED
+ANT(3'')-IIa,catI,0.6819,0.0,18,0.7245,SCATTERED
+catI,tet(B),0.8478,0.0,21,0.7299,SCATTERED
+catI,tetR,0.8478,0.0,21,0.7299,SCATTERED
+AcrF,Escherichia coli cyaA with mutation conferring resistance to fosfomycin,0.3431,0.001,7,0.7328,SCATTERED
+Escherichia coli cyaA with mutation conferring resistance to fosfomycin,mdtG,0.358,0.0006,7,0.7328,SCATTERED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,gadW,0.3475,0.0004,14,0.7335,SCATTERED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,ugd,0.3083,0.0014,14,0.7342,SCATTERED
+Escherichia coli ampC beta-lactamase,Escherichia coli emrE,0.3783,0.0001,31,0.7345,SCATTERED
+ANT(3'')-IIa,Escherichia coli ampC beta-lactamase,0.5759,0.0,23,0.7395,SCATTERED
+AcrE,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0.4286,0.0,15,0.7441,SCATTERED
+AcrS,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0.4286,0.0,15,0.7441,SCATTERED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,mdtB,0.3877,0.0,15,0.7441,SCATTERED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,mdtA,0.4201,0.0,15,0.7441,SCATTERED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,emrA,0.3502,0.0002,15,0.7441,SCATTERED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,mdtF,0.3289,0.0004,15,0.7441,SCATTERED
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,mdtE,0.3502,0.0002,15,0.7441,SCATTERED
+AcrE,mdtG,0.699,0.0,35,0.7485,SCATTERED
+AcrS,mdtG,0.699,0.0,35,0.7485,SCATTERED
+mdtG,mdtP,0.4369,0.0,35,0.7503,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,mdtG,0.327,0.0013,17,0.752,SCATTERED
+AcrF,Escherichia coli parC conferring resistance to fluoroquinolones,0.3191,0.0019,13,0.7598,SCATTERED
+Escherichia coli parC conferring resistance to fluoroquinolones,mdtG,0.3418,0.0009,13,0.7598,SCATTERED
+gadW,mdtG,0.3217,0.0012,27,0.7641,SCATTERED
+Escherichia coli ampC beta-lactamase,PmrF,0.316,0.0012,35,0.7651,SCATTERED
+Klebsiella pneumoniae KpnF,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+YojI,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+mdtE,mdtG,0.6388,0.0,37,0.7677,SCATTERED
+emrK,mdtG,0.3345,0.0003,37,0.7677,SCATTERED
+CRP,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+mdtF,mdtG,0.6,0.0,37,0.7677,SCATTERED
+mdtG,mdtH,0.4307,0.0,37,0.7677,SCATTERED
+acrD,mdtG,0.4425,0.0,37,0.7677,SCATTERED
+mdtG,rsmA,0.3219,0.0005,37,0.7677,SCATTERED
+mdtG,msbA,0.3345,0.0003,37,0.7677,SCATTERED
+baeS,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+PmrF,mdtG,0.4779,0.0,37,0.7677,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+mdtG,vanG,0.3345,0.0003,37,0.7677,SCATTERED
+H-NS,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+gadX,mdtG,0.3468,0.0002,37,0.7677,SCATTERED
+mdtC,mdtG,0.4425,0.0,37,0.7677,SCATTERED
+marA,mdtG,0.3345,0.0003,37,0.7677,SCATTERED
+Klebsiella pneumoniae KpnE,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+kdpE,mdtG,0.5257,0.0,37,0.7677,SCATTERED
+mdtA,mdtG,0.7664,0.0,37,0.7677,SCATTERED
+bacA,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+emrY,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtG,0.3345,0.0003,37,0.7677,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtG,0.3345,0.0003,37,0.7677,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+cpxA,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+emrR,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+emrB,mdtG,0.3468,0.0002,37,0.7677,SCATTERED
+mdtB,mdtG,0.7073,0.0,37,0.7677,SCATTERED
+Escherichia coli acrA,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtG,0.3832,0.0,37,0.7677,SCATTERED
+eptA,mdtG,0.3951,0.0,37,0.7677,SCATTERED
+TolC,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+emrA,mdtG,0.6388,0.0,37,0.7677,SCATTERED
+baeR,mdtG,0.3219,0.0005,37,0.7677,SCATTERED
+acrB,mdtG,0.3345,0.0003,37,0.7677,SCATTERED
+evgS,mdtG,0.3468,0.0002,37,0.7677,SCATTERED
+AcrF,acrD,0.3669,0.0001,37,0.7687,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli ampC beta-lactamase,0.3213,0.0007,38,0.7704,SCATTERED
+Escherichia coli ampC beta-lactamase,evgA,0.3073,0.0013,38,0.7704,SCATTERED
+AcrF,AcrS,0.7747,0.0,38,0.7713,SCATTERED
+AcrE,AcrF,0.7747,0.0,38,0.7713,SCATTERED
+AcrF,mdtG,0.916,0.0,36,0.7722,SCATTERED
+mdtG,mdtN,0.4565,0.0,36,0.774,SCATTERED
+mdtG,mdtO,0.4938,0.0,36,0.774,SCATTERED
+Escherichia coli mdfA,mdtG,0.5189,0.0,36,0.7741,SCATTERED
+Escherichia coli ampC beta-lactamase,evgS,0.3073,0.0013,38,0.7759,SCATTERED
+Escherichia coli ampC beta-lactamase,mdtC,0.4143,0.0,38,0.7775,SCATTERED
+Escherichia coli ampC beta-lactamase,gadX,0.3073,0.0013,38,0.7775,SCATTERED
+AcrF,mdtP,0.4606,0.0,37,0.7777,SCATTERED
+Escherichia coli acrA,Escherichia coli ampC beta-lactamase,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli ampC beta-lactamase,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,Escherichia coli soxS with mutation conferring antibiotic resistance,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,rsmA,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,mdtH,0.4493,0.0,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,H-NS,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,baeS,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,cpxA,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,Klebsiella pneumoniae KpnF,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,emrY,0.3359,0.0003,39,0.7779,SCATTERED
+CRP,Escherichia coli ampC beta-lactamase,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,emrR,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,emrK,0.349,0.0002,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,TolC,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,YojI,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,acrB,0.349,0.0002,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,bacA,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,baeR,0.3359,0.0003,39,0.7779,SCATTERED
+Escherichia coli ampC beta-lactamase,Klebsiella pneumoniae KpnE,0.3359,0.0003,39,0.7779,SCATTERED
+EC-8,Escherichia coli cyaA with mutation conferring resistance to fosfomycin,0.8362,0.0,5,0.7834,SCATTERED
+mdtG,ugd,0.5401,0.0,34,0.7846,SCATTERED
+AcrF,ugd,0.4874,0.0,34,0.7859,SCATTERED
+AcrS,mdtP,0.3293,0.0009,41,0.7897,SCATTERED
+AcrE,mdtP,0.3293,0.0009,41,0.7901,SCATTERED
+AcrE,Escherichia coli mdfA,0.3418,0.0006,40,0.7908,SCATTERED
+tet(B),tetR,1.0,0.0,27,0.7908,SCATTERED
+AcrF,eptA,0.4123,0.0,39,0.7912,SCATTERED
+AcrF,evgA,0.3619,0.0001,39,0.7912,SCATTERED
+AcrF,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.349,0.0002,39,0.7912,SCATTERED
+AcrF,evgS,0.3619,0.0001,39,0.7912,SCATTERED
+AcrF,gadX,0.3619,0.0001,39,0.7912,SCATTERED
+AcrF,kdpE,0.5485,0.0,39,0.7912,SCATTERED
+AcrF,mdtA,0.7996,0.0,39,0.7912,SCATTERED
+AcrF,mdtC,0.4616,0.0,39,0.7912,SCATTERED
+AcrF,emrY,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,mdtE,0.6666,0.0,39,0.7912,SCATTERED
+AcrF,mdtF,0.626,0.0,39,0.7912,SCATTERED
+AcrF,mdtH,0.4493,0.0,39,0.7912,SCATTERED
+AcrF,Klebsiella pneumoniae KpnF,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,msbA,0.349,0.0002,39,0.7912,SCATTERED
+AcrF,rsmA,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,vanG,0.349,0.0002,39,0.7912,SCATTERED
+AcrF,Klebsiella pneumoniae KpnE,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,mdtB,0.738,0.0,39,0.7912,SCATTERED
+AcrF,emrR,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,PmrF,0.4986,0.0,39,0.7912,SCATTERED
+AcrF,emrB,0.3619,0.0001,39,0.7912,SCATTERED
+AcrF,CRP,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,Escherichia coli acrA,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,TolC,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,Escherichia coli soxR with mutation conferring antibiotic resistance,0.3998,0.0,39,0.7912,SCATTERED
+AcrF,Escherichia coli soxS with mutation conferring antibiotic resistance,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,emrK,0.349,0.0002,39,0.7912,SCATTERED
+AcrF,acrB,0.349,0.0002,39,0.7912,SCATTERED
+AcrF,bacA,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,baeR,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,YojI,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,H-NS,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,emrA,0.6666,0.0,39,0.7912,SCATTERED
+AcrF,baeS,0.3359,0.0003,39,0.7912,SCATTERED
+AcrF,cpxA,0.3359,0.0003,39,0.7912,SCATTERED
+mdtG,mdtM,0.5233,0.0,30,0.7962,SCATTERED
+AcrF,Escherichia coli mdfA,0.5438,0.0,38,0.7973,SCATTERED
+AcrF,mdtO,0.5176,0.0,38,0.7976,SCATTERED
+AcrF,mdtN,0.4787,0.0,38,0.7976,SCATTERED
+acrD,mdtB,0.3012,0.0026,47,0.7991,SCATTERED
+mdtA,mdtP,0.3859,0.0001,43,0.8024,SCATTERED
+Escherichia coli mdfA,mdtA,0.3145,0.0015,40,0.8033,SCATTERED
+AcrS,mdtN,0.3798,0.0001,43,0.8046,SCATTERED
+AcrE,mdtN,0.3798,0.0001,43,0.8046,SCATTERED
+EC-15,mdtE,0.3222,0.0006,13,0.8048,SCATTERED
+EC-15,mdtM,0.4105,0.0,13,0.8048,SCATTERED
+EC-15,ugd,0.3357,0.0003,13,0.8048,SCATTERED
+EC-15,emrA,0.3222,0.0006,13,0.8048,SCATTERED
+mdtB,mdtP,0.4422,0.0,47,0.8074,SCATTERED
+AcrS,eptA,0.3089,0.0018,45,0.81,SCATTERED
+AcrE,PmrF,0.433,0.0,45,0.81,SCATTERED
+AcrE,eptA,0.3089,0.0018,45,0.81,SCATTERED
+AcrS,PmrF,0.433,0.0,45,0.81,SCATTERED
+Escherichia coli mdfA,mdtB,0.3323,0.0009,43,0.8119,SCATTERED
+mdtA,mdtN,0.3928,0.0001,44,0.8153,SCATTERED
+AcrS,mdtO,0.4752,0.0,44,0.8159,SCATTERED
+AcrE,mdtO,0.4327,0.0,43,0.8169,SCATTERED
+AcrF,mdtM,0.5615,0.0,32,0.8185,SCATTERED
+mdtB,mdtN,0.4466,0.0,48,0.8188,SCATTERED
+PmrF,mdtA,0.4454,0.0,46,0.8198,SCATTERED
+eptA,mdtA,0.3192,0.0013,46,0.8198,SCATTERED
+AcrE,ugd,0.5685,0.0,42,0.8216,SCATTERED
+eptA,mdtB,0.3616,0.0003,50,0.8226,SCATTERED
+PmrF,mdtB,0.4969,0.0,50,0.8226,SCATTERED
+AcrS,ugd,0.5281,0.0,41,0.8229,SCATTERED
+AcrS,emrB,0.3371,0.0006,47,0.825,SCATTERED
+AcrS,msbA,0.3732,0.0001,48,0.8251,SCATTERED
+AcrS,marA,0.3732,0.0001,48,0.8252,SCATTERED
+AcrS,Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,0.3732,0.0001,48,0.8252,SCATTERED
+AcrE,msbA,0.3732,0.0001,48,0.8252,SCATTERED
+AcrE,Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,0.3732,0.0001,48,0.8255,SCATTERED
+AcrE,emrB,0.3371,0.0006,47,0.8255,SCATTERED
+AcrE,marA,0.3732,0.0001,48,0.8255,SCATTERED
+mdtA,mdtO,0.4891,0.0,45,0.8256,SCATTERED
+mdtB,mdtO,0.3764,0.0002,45,0.8256,SCATTERED
+AcrS,acrB,0.4278,0.0,49,0.8298,SCATTERED
+AcrS,TolC,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,bacA,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,YojI,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,baeS,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,cpxA,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,kdpE,0.6724,0.0,49,0.8298,SCATTERED
+AcrS,evgS,0.4436,0.0,49,0.8298,SCATTERED
+AcrS,emrK,0.4278,0.0,49,0.8298,SCATTERED
+AcrS,emrR,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,baeR,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,Klebsiella pneumoniae KpnF,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,evgA,0.4436,0.0,49,0.8298,SCATTERED
+AcrS,emrY,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,H-NS,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,Escherichia coli soxS with mutation conferring antibiotic resistance,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,vanG,0.4278,0.0,49,0.8298,SCATTERED
+AcrS,Escherichia coli acrA,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,rsmA,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,Klebsiella pneumoniae KpnE,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,CRP,0.4118,0.0,49,0.8298,SCATTERED
+AcrS,mdtH,0.5508,0.0,49,0.8298,SCATTERED
+AcrS,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.4278,0.0,49,0.8298,SCATTERED
+AcrE,Klebsiella pneumoniae KpnF,0.4118,0.0,49,0.83,SCATTERED
+AcrE,Klebsiella pneumoniae KpnE,0.4118,0.0,49,0.83,SCATTERED
+AcrE,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.4278,0.0,49,0.83,SCATTERED
+AcrE,rsmA,0.4118,0.0,49,0.83,SCATTERED
+AcrE,H-NS,0.4118,0.0,49,0.83,SCATTERED
+AcrE,Escherichia coli soxS with mutation conferring antibiotic resistance,0.4118,0.0,49,0.83,SCATTERED
+AcrE,baeS,0.4118,0.0,49,0.83,SCATTERED
+AcrE,Escherichia coli acrA,0.4118,0.0,49,0.83,SCATTERED
+AcrE,baeR,0.4118,0.0,49,0.83,SCATTERED
+AcrE,bacA,0.4118,0.0,49,0.83,SCATTERED
+AcrE,acrB,0.4278,0.0,49,0.83,SCATTERED
+AcrE,YojI,0.4118,0.0,49,0.83,SCATTERED
+AcrE,TolC,0.4118,0.0,49,0.83,SCATTERED
+AcrE,CRP,0.4118,0.0,49,0.83,SCATTERED
+AcrE,emrK,0.4278,0.0,49,0.83,SCATTERED
+AcrE,mdtH,0.5508,0.0,49,0.83,SCATTERED
+AcrE,emrR,0.4118,0.0,49,0.83,SCATTERED
+AcrE,cpxA,0.4118,0.0,49,0.83,SCATTERED
+AcrE,emrY,0.4118,0.0,49,0.83,SCATTERED
+AcrE,evgA,0.4436,0.0,49,0.83,SCATTERED
+AcrE,evgS,0.4436,0.0,49,0.83,SCATTERED
+AcrE,kdpE,0.6724,0.0,49,0.83,SCATTERED
+AcrE,vanG,0.4278,0.0,49,0.83,SCATTERED
+AcrE,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0.4118,0.0,49,0.83,SCATTERED
+AcrS,mdtC,0.5197,0.0,48,0.8301,SCATTERED
+AcrS,mdtE,0.7764,0.0,48,0.8301,SCATTERED
+AcrS,mdtF,0.7262,0.0,48,0.8301,SCATTERED
+AcrS,emrA,0.7764,0.0,48,0.8301,SCATTERED
+AcrS,gadX,0.3904,0.0001,48,0.8301,SCATTERED
+AcrS,mdtA,0.9402,0.0,48,0.8301,SCATTERED
+AcrS,mdtB,0.8645,0.0,48,0.8301,SCATTERED
+AcrE,gadX,0.3904,0.0001,48,0.8306,SCATTERED
+AcrE,mdtF,0.7262,0.0,48,0.8306,SCATTERED
+AcrE,mdtC,0.5197,0.0,48,0.8306,SCATTERED
+AcrE,mdtB,0.8645,0.0,48,0.8306,SCATTERED
+AcrE,AcrS,0.96,0.0,48,0.8314,SCATTERED
+AcrE,mdtE,0.7358,0.0,47,0.8317,SCATTERED
+AcrE,mdtA,0.9002,0.0,47,0.8317,SCATTERED
+AcrE,emrA,0.7358,0.0,47,0.8317,SCATTERED
+acrD,kdpE,0.3466,0.0008,58,0.8326,SCATTERED
+mdtA,ugd,0.5454,0.0,42,0.8329,SCATTERED
+Escherichia coli emrE,Escherichia coli parC conferring resistance to fluoroquinolones,0.3629,0.0001,17,0.833,SCATTERED
+emrB,mdtA,0.3993,0.0,49,0.8332,SCATTERED
+mdtA,msbA,0.3819,0.0001,49,0.8335,SCATTERED
+marA,mdtA,0.3819,0.0001,49,0.8336,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtA,0.3819,0.0001,49,0.8336,SCATTERED
+emrB,mdtB,0.4369,0.0,53,0.8341,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtB,0.4181,0.0,53,0.8344,SCATTERED
+mdtB,msbA,0.4181,0.0,53,0.8344,SCATTERED
+marA,mdtB,0.4181,0.0,53,0.8344,SCATTERED
+mdtB,ugd,0.6168,0.0,46,0.8349,SCATTERED
+kdpE,mdtH,0.3674,0.0004,59,0.8354,SCATTERED
+AcrS,"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",0.3551,0.0003,47,0.8359,SCATTERED
+AcrE,"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",0.3551,0.0003,47,0.8362,SCATTERED
+acrD,mdtF,0.3093,0.0023,53,0.8367,SCATTERED
+kdpE,mdtC,0.3466,0.0008,58,0.8373,SCATTERED
+AcrS,mdtM,0.5198,0.0,36,0.8375,SCATTERED
+AcrE,mdtM,0.5198,0.0,36,0.8375,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+evgS,mdtA,0.4526,0.0,50,0.8377,SCATTERED
+baeS,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+mdtA,mdtE,0.8336,0.0,50,0.8377,SCATTERED
+mdtA,mdtC,0.5774,0.0,50,0.8377,SCATTERED
+H-NS,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+Escherichia coli acrA,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+YojI,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+CRP,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+TolC,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+cpxA,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+Klebsiella pneumoniae KpnE,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+mdtA,mdtB,0.923,0.0,50,0.8377,SCATTERED
+kdpE,mdtA,0.686,0.0,50,0.8377,SCATTERED
+emrK,mdtA,0.4364,0.0,50,0.8377,SCATTERED
+baeR,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+mdtB,mdtE,0.74,0.0,50,0.8377,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtA,0.4364,0.0,50,0.8377,SCATTERED
+mdtA,vanG,0.4364,0.0,50,0.8377,SCATTERED
+mdtA,rsmA,0.4201,0.0,50,0.8377,SCATTERED
+emrY,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+bacA,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+emrA,mdtB,0.74,0.0,50,0.8377,SCATTERED
+emrR,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+Klebsiella pneumoniae KpnF,mdtA,0.4201,0.0,50,0.8377,SCATTERED
+gadX,mdtA,0.4526,0.0,50,0.8377,SCATTERED
+acrB,mdtA,0.4364,0.0,50,0.8377,SCATTERED
+mdtA,mdtH,0.562,0.0,50,0.8377,SCATTERED
+mdtA,mdtF,0.7829,0.0,50,0.8377,SCATTERED
+emrA,mdtA,0.8336,0.0,50,0.8377,SCATTERED
+evgS,mdtB,0.4903,0.0,54,0.8382,SCATTERED
+emrY,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+emrR,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+Escherichia coli acrA,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+cpxA,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+emrK,mdtB,0.4729,0.0,54,0.8382,SCATTERED
+mdtB,mdtC,0.6255,0.0,54,0.8382,SCATTERED
+mdtB,mdtF,0.8482,0.0,54,0.8382,SCATTERED
+TolC,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+kdpE,mdtB,0.7433,0.0,54,0.8382,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtB,0.4729,0.0,54,0.8382,SCATTERED
+Klebsiella pneumoniae KpnE,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+mdtB,mdtH,0.6089,0.0,54,0.8382,SCATTERED
+YojI,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+mdtB,rsmA,0.4551,0.0,54,0.8382,SCATTERED
+baeR,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+gadX,mdtB,0.4903,0.0,54,0.8382,SCATTERED
+CRP,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+mdtB,vanG,0.4729,0.0,54,0.8382,SCATTERED
+bacA,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+acrB,mdtB,0.4729,0.0,54,0.8382,SCATTERED
+H-NS,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+baeS,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+Klebsiella pneumoniae KpnF,mdtB,0.4551,0.0,54,0.8382,SCATTERED
+Escherichia coli emrE,gadW,0.5597,0.0,43,0.8385,SCATTERED
+evgA,mdtA,0.3993,0.0,49,0.8416,SCATTERED
+evgA,mdtB,0.4369,0.0,53,0.8418,SCATTERED
+Escherichia coli emrE,Escherichia coli mdfA,0.5322,0.0,49,0.8425,SCATTERED
+Escherichia coli emrE,mdtN,0.6946,0.0,55,0.8426,SCATTERED
+Escherichia coli emrE,acrD,0.6048,0.0,55,0.8426,SCATTERED
+Escherichia coli emrE,Escherichia coli soxR with mutation conferring antibiotic resistance,0.3626,0.0003,52,0.8436,SCATTERED
+mdtC,mdtF,0.4044,0.0001,55,0.8438,SCATTERED
+mdtF,mdtH,0.3801,0.0002,55,0.8438,SCATTERED
+mdtA,mdtM,0.581,0.0,38,0.8455,SCATTERED
+mdtB,mdtM,0.5073,0.0,38,0.8455,SCATTERED
+acrD,mdtP,0.6931,0.0,65,0.8471,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtB,0.351,0.0005,51,0.8472,SCATTERED
+Escherichia coli emrE,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.4374,0.0,55,0.8472,SCATTERED
+Escherichia coli emrE,Escherichia coli soxS with mutation conferring antibiotic resistance,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,emrY,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,Klebsiella pneumoniae KpnE,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,emrR,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,emrK,0.4924,0.0,56,0.8473,SCATTERED
+CRP,Escherichia coli emrE,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli acrA,Escherichia coli emrE,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,cpxA,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,baeR,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,PmrF,0.7035,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,TolC,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,eptA,0.5817,0.0,56,0.8473,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli emrE,0.4924,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,bacA,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,acrB,0.4924,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,YojI,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,Klebsiella pneumoniae KpnF,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,baeS,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,H-NS,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,rsmA,0.4739,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,msbA,0.4924,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,mdtH,0.634,0.0,56,0.8473,SCATTERED
+Escherichia coli emrE,marA,0.4924,0.0,56,0.8473,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli emrE,0.4739,0.0,56,0.8473,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli emrE,0.3713,0.0002,53,0.8477,SCATTERED
+Escherichia coli emrE,evgA,0.4569,0.0,55,0.8478,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtA,0.3123,0.0017,47,0.8478,SCATTERED
+gadW,mdtP,0.6282,0.0,50,0.8478,SCATTERED
+eptA,kdpE,0.4358,0.0,62,0.8486,SCATTERED
+Escherichia coli emrE,evgS,0.4569,0.0,55,0.8487,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Escherichia coli emrE,0.4333,0.0,53,0.8493,SCATTERED
+Escherichia coli emrE,gadX,0.4569,0.0,55,0.8496,SCATTERED
+Escherichia coli emrE,emrB,0.4569,0.0,55,0.8496,SCATTERED
+Escherichia coli emrE,mdtC,0.6048,0.0,55,0.8496,SCATTERED
+Escherichia coli emrE,mdtP,0.7307,0.0,55,0.8496,SCATTERED
+Escherichia coli emrE,vanG,0.4374,0.0,55,0.8497,SCATTERED
+mdtN,mdtP,0.9075,0.0,67,0.8513,SCATTERED
+PmrF,acrD,0.7715,0.0,69,0.8517,SCATTERED
+Escherichia coli emrE,Escherichia coli gyrA conferring resistance to fluoroquinolones,0.4029,0.0,24,0.8517,SCATTERED
+acrD,mdtH,0.6489,0.0,69,0.8517,SCATTERED
+Escherichia coli parC conferring resistance to fluoroquinolones,gadW,0.3459,0.0004,16,0.8523,SCATTERED
+Escherichia coli mdfA,mdtP,0.7551,0.0,61,0.8526,SCATTERED
+eptA,mdtE,0.319,0.0017,53,0.8527,SCATTERED
+emrA,eptA,0.319,0.0017,53,0.8527,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtP,0.5145,0.0,64,0.8531,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtP,0.5777,0.0,67,0.8533,SCATTERED
+marA,mdtP,0.5777,0.0,67,0.8533,SCATTERED
+Escherichia coli mdfA,acrD,0.69,0.0,63,0.8534,SCATTERED
+acrD,ugd,0.3848,0.0001,51,0.8536,SCATTERED
+acrD,mdtC,0.6267,0.0,68,0.8537,SCATTERED
+Escherichia coli emrE,mdtO,0.6204,0.0,52,0.8541,SCATTERED
+acrD,mdtN,0.7811,0.0,68,0.8541,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtP,0.5777,0.0,67,0.8544,SCATTERED
+Escherichia coli acrA,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+PmrF,mdtP,0.9091,0.0,68,0.8549,SCATTERED
+YojI,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+Klebsiella pneumoniae KpnF,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+mdtH,mdtP,0.8192,0.0,68,0.8549,SCATTERED
+mdtC,mdtP,0.8416,0.0,68,0.8549,SCATTERED
+CRP,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+emrR,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+baeS,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+emrK,mdtP,0.6362,0.0,68,0.8549,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+mdtP,rsmA,0.6124,0.0,68,0.8549,SCATTERED
+mdtP,msbA,0.6362,0.0,68,0.8549,SCATTERED
+H-NS,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+cpxA,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+baeR,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+bacA,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+eptA,mdtP,0.7516,0.0,68,0.8549,SCATTERED
+gadX,mdtP,0.6597,0.0,68,0.8549,SCATTERED
+emrB,mdtP,0.6597,0.0,68,0.8549,SCATTERED
+Klebsiella pneumoniae KpnE,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+TolC,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+emrY,mdtP,0.6124,0.0,68,0.8549,SCATTERED
+acrB,mdtP,0.6362,0.0,68,0.8549,SCATTERED
+eptA,mdtF,0.4057,0.0001,57,0.8553,SCATTERED
+Escherichia coli mdfA,marA,0.5376,0.0,64,0.8555,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli mdfA,0.5376,0.0,64,0.8555,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtN,0.5455,0.0,66,0.8561,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtN,0.6071,0.0,69,0.8561,SCATTERED
+evgS,mdtP,0.6027,0.0,67,0.8561,SCATTERED
+marA,mdtN,0.6071,0.0,69,0.8561,SCATTERED
+evgA,mdtP,0.6027,0.0,67,0.8563,SCATTERED
+mdtP,vanG,0.5777,0.0,67,0.8568,SCATTERED
+Escherichia coli mdfA,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.5376,0.0,64,0.857,SCATTERED
+Escherichia coli mdfA,emrR,0.5725,0.0,65,0.8571,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtP,0.5156,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,rsmA,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,msbA,0.5948,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,mdtH,0.7658,0.0,65,0.8571,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli mdfA,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,eptA,0.7026,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,emrY,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,H-NS,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,emrK,0.5948,0.0,65,0.8571,SCATTERED
+CRP,Escherichia coli mdfA,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,cpxA,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,baeS,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli acrA,Escherichia coli mdfA,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,YojI,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,baeR,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,TolC,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,PmrF,0.8498,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,bacA,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,Klebsiella pneumoniae KpnF,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,Escherichia coli soxS with mutation conferring antibiotic resistance,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,Escherichia coli soxR with mutation conferring antibiotic resistance,0.6814,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,Klebsiella pneumoniae KpnE,0.5725,0.0,65,0.8571,SCATTERED
+Escherichia coli mdfA,acrB,0.5948,0.0,65,0.8571,SCATTERED
+PmrF,marA,0.6391,0.0,71,0.8572,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,PmrF,0.6391,0.0,71,0.8572,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtN,0.6071,0.0,69,0.8572,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,PmrF,0.5791,0.0,68,0.8573,SCATTERED
+emrK,mdtN,0.6667,0.0,70,0.8576,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+baeR,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+H-NS,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+cpxA,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+Klebsiella pneumoniae KpnE,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+baeS,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+bacA,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+eptA,mdtN,0.7876,0.0,70,0.8576,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+TolC,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+YojI,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+Escherichia coli acrA,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+mdtH,mdtN,0.8584,0.0,70,0.8576,SCATTERED
+emrR,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+mdtN,msbA,0.6667,0.0,70,0.8576,SCATTERED
+mdtN,rsmA,0.6417,0.0,70,0.8576,SCATTERED
+acrB,mdtN,0.6667,0.0,70,0.8576,SCATTERED
+PmrF,mdtN,0.9526,0.0,70,0.8576,SCATTERED
+CRP,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+emrY,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+Klebsiella pneumoniae KpnF,mdtN,0.6417,0.0,70,0.8576,SCATTERED
+Escherichia coli mdfA,evgS,0.5609,0.0,64,0.8581,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,PmrF,0.6391,0.0,71,0.8582,SCATTERED
+acrB,gadW,0.4543,0.0,52,0.8585,SCATTERED
+YojI,gadW,0.4372,0.0,52,0.8585,SCATTERED
+cpxA,gadW,0.4372,0.0,52,0.8585,SCATTERED
+TolC,gadW,0.4372,0.0,52,0.8585,SCATTERED
+emrK,kdpE,0.5777,0.0,67,0.8585,SCATTERED
+Escherichia coli mdfA,evgA,0.5609,0.0,64,0.8585,SCATTERED
+emrK,gadW,0.4543,0.0,52,0.8585,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,gadW,0.4372,0.0,52,0.8585,SCATTERED
+baeS,gadW,0.4372,0.0,52,0.8585,SCATTERED
+Klebsiella pneumoniae KpnF,gadW,0.4372,0.0,52,0.8585,SCATTERED
+baeR,gadW,0.4372,0.0,52,0.8585,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,gadW,0.5204,0.0,52,0.8585,SCATTERED
+emrB,gadW,0.471,0.0,52,0.8585,SCATTERED
+acrD,gadW,0.6009,0.0,52,0.8585,SCATTERED
+bacA,gadW,0.4372,0.0,52,0.8585,SCATTERED
+Klebsiella pneumoniae KpnE,gadW,0.4372,0.0,52,0.8585,SCATTERED
+H-NS,gadW,0.4372,0.0,52,0.8585,SCATTERED
+PmrF,gadW,0.6491,0.0,52,0.8585,SCATTERED
+eptA,gadW,0.5366,0.0,52,0.8585,SCATTERED
+emrY,gadW,0.4372,0.0,52,0.8585,SCATTERED
+gadW,rsmA,0.4372,0.0,52,0.8585,SCATTERED
+gadW,msbA,0.4543,0.0,52,0.8585,SCATTERED
+gadW,gadX,0.471,0.0,52,0.8585,SCATTERED
+gadW,mdtN,0.6814,0.0,52,0.8585,SCATTERED
+CRP,gadW,0.4372,0.0,52,0.8585,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli mdfA,0.5293,0.0,63,0.8585,SCATTERED
+gadW,mdtC,0.6009,0.0,52,0.8585,SCATTERED
+emrR,gadW,0.4372,0.0,52,0.8585,SCATTERED
+gadW,marA,0.4543,0.0,52,0.8585,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,gadW,0.4372,0.0,52,0.8585,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,gadW,0.4543,0.0,52,0.8585,SCATTERED
+gadW,mdtH,0.5849,0.0,52,0.8585,SCATTERED
+Escherichia coli acrA,gadW,0.4372,0.0,52,0.8585,SCATTERED
+Klebsiella pneumoniae KpnE,PmrF,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,cpxA,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,baeS,0.6736,0.0,72,0.8586,SCATTERED
+eptA,mdtH,0.6875,0.0,72,0.8586,SCATTERED
+PmrF,emrK,0.6999,0.0,72,0.8586,SCATTERED
+PmrF,bacA,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,acrB,0.6999,0.0,72,0.8586,SCATTERED
+PmrF,YojI,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,baeR,0.6736,0.0,72,0.8586,SCATTERED
+CRP,PmrF,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,eptA,0.8268,0.0,72,0.8586,SCATTERED
+PmrF,emrR,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,emrY,0.6736,0.0,72,0.8586,SCATTERED
+Escherichia coli acrA,PmrF,0.6736,0.0,72,0.8586,SCATTERED
+acrB,kdpE,0.5777,0.0,67,0.8586,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,PmrF,0.6736,0.0,72,0.8586,SCATTERED
+Klebsiella pneumoniae KpnF,PmrF,0.6736,0.0,72,0.8586,SCATTERED
+H-NS,PmrF,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,rsmA,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,msbA,0.6999,0.0,72,0.8586,SCATTERED
+PmrF,mdtH,0.9011,0.0,72,0.8586,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,PmrF,0.6736,0.0,72,0.8586,SCATTERED
+PmrF,TolC,0.6736,0.0,72,0.8586,SCATTERED
+evgA,gadW,0.4178,0.0,51,0.8587,SCATTERED
+evgS,mdtN,0.6332,0.0,69,0.8588,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",gadW,0.3314,0.0009,49,0.8588,SCATTERED
+Escherichia coli mdfA,vanG,0.5376,0.0,64,0.8588,SCATTERED
+evgA,mdtN,0.6332,0.0,69,0.8589,SCATTERED
+evgS,gadW,0.4178,0.0,51,0.8589,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Escherichia coli mdfA,0.3938,0.0001,59,0.8589,SCATTERED
+Escherichia coli mdfA,emrB,0.5609,0.0,64,0.859,SCATTERED
+Escherichia coli mdfA,mdtC,0.7384,0.0,64,0.859,SCATTERED
+Escherichia coli mdfA,gadX,0.5609,0.0,64,0.859,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,Escherichia coli parC conferring resistance to fluoroquinolones,0.7704,0.0,18,0.8591,SCATTERED
+Escherichia coli parC conferring resistance to fluoroquinolones,mdtP,0.3214,0.0004,18,0.8591,SCATTERED
+Escherichia coli parC conferring resistance to fluoroquinolones,mdtN,0.3067,0.0008,18,0.8591,SCATTERED
+Escherichia coli parC conferring resistance to fluoroquinolones,mdtO,0.3288,0.0003,18,0.8591,SCATTERED
+kdpE,msbA,0.5777,0.0,67,0.8592,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,kdpE,0.5777,0.0,67,0.8592,SCATTERED
+kdpE,marA,0.5777,0.0,67,0.8592,SCATTERED
+mdtN,vanG,0.6071,0.0,69,0.8594,SCATTERED
+Escherichia coli mdfA,mdtN,0.8464,0.0,64,0.8594,SCATTERED
+emrB,mdtN,0.6332,0.0,69,0.8595,SCATTERED
+mdtC,mdtN,0.8315,0.0,69,0.8595,SCATTERED
+gadX,mdtN,0.6332,0.0,69,0.8595,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtN,0.5453,0.0,67,0.8596,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,mdtN,0.4661,0.0,64,0.8596,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,gadW,0.3997,0.0,51,0.8598,SCATTERED
+PmrF,evgS,0.6664,0.0,71,0.8598,SCATTERED
+PmrF,evgA,0.6664,0.0,71,0.8599,SCATTERED
+acrD,mdtO,0.6753,0.0,64,0.8599,SCATTERED
+gadW,vanG,0.3997,0.0,51,0.86,SCATTERED
+mdtO,mdtP,0.8407,0.0,64,0.8602,SCATTERED
+evgS,kdpE,0.6027,0.0,67,0.8603,SCATTERED
+PmrF,emrB,0.6664,0.0,71,0.8604,SCATTERED
+PmrF,mdtC,0.8744,0.0,71,0.8604,SCATTERED
+PmrF,vanG,0.6391,0.0,71,0.8604,SCATTERED
+PmrF,gadX,0.6664,0.0,71,0.8604,SCATTERED
+eptA,mdtC,0.6662,0.0,71,0.8604,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",PmrF,0.5774,0.0,69,0.8605,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,PmrF,0.4987,0.0,66,0.8607,SCATTERED
+emrB,kdpE,0.5456,0.0,66,0.861,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+emrR,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+Klebsiella pneumoniae KpnF,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+baeR,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+Escherichia coli acrA,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+YojI,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+kdpE,vanG,0.6362,0.0,68,0.8614,SCATTERED
+CRP,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+baeS,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+cpxA,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,kdpE,0.6362,0.0,68,0.8614,SCATTERED
+H-NS,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+TolC,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+Klebsiella pneumoniae KpnE,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+bacA,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+emrY,kdpE,0.6124,0.0,68,0.8614,SCATTERED
+kdpE,rsmA,0.6124,0.0,68,0.8614,SCATTERED
+evgA,kdpE,0.5456,0.0,66,0.8615,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,kdpE,0.4609,0.0,63,0.8616,SCATTERED
+eptA,ugd,0.3952,0.0001,53,0.8617,SCATTERED
+Escherichia coli mdfA,gadW,0.6798,0.0,50,0.8618,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,mdtP,0.4884,0.0,63,0.862,SCATTERED
+gadW,mdtO,0.6028,0.0,49,0.8621,SCATTERED
+gadX,kdpE,0.5456,0.0,66,0.8621,SCATTERED
+emrK,mdtF,0.5013,0.0,61,0.8623,SCATTERED
+mdtH,msbA,0.7128,0.0,75,0.8624,SCATTERED
+marA,mdtH,0.7128,0.0,75,0.8627,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtH,0.7128,0.0,75,0.8627,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtH,0.5971,0.0,71,0.8627,SCATTERED
+Escherichia coli mdfA,mdtO,0.7781,0.0,61,0.8629,SCATTERED
+mdtN,mdtO,0.8864,0.0,66,0.8633,SCATTERED
+mdtE,mdtF,0.8554,0.0,57,0.8633,SCATTERED
+acrD,eptA,0.7796,0.0,73,0.8633,SCATTERED
+emrA,mdtF,0.8554,0.0,57,0.8633,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtH,0.7128,0.0,75,0.8633,SCATTERED
+emrB,mdtF,0.5232,0.0,61,0.8633,SCATTERED
+Escherichia coli acrA,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+Klebsiella pneumoniae KpnE,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+Klebsiella pneumoniae KpnF,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+CRP,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+baeS,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+acrB,mdtH,0.7766,0.0,76,0.8635,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+H-NS,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+emrY,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+marA,mdtF,0.5013,0.0,61,0.8635,SCATTERED
+cpxA,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+baeR,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtF,0.5013,0.0,61,0.8635,SCATTERED
+mdtF,msbA,0.5013,0.0,61,0.8635,SCATTERED
+YojI,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+mdtH,rsmA,0.7475,0.0,76,0.8635,SCATTERED
+bacA,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+emrK,mdtH,0.7766,0.0,76,0.8635,SCATTERED
+emrR,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+TolC,mdtH,0.7475,0.0,76,0.8635,SCATTERED
+emrB,mdtC,0.7224,0.0,74,0.8639,SCATTERED
+emrB,mdtH,0.6807,0.0,74,0.8639,SCATTERED
+mdtC,msbA,0.6929,0.0,74,0.8642,SCATTERED
+gadX,mdtF,0.5232,0.0,61,0.8642,SCATTERED
+emrA,emrK,0.4681,0.0,58,0.8642,SCATTERED
+emrK,mdtE,0.4681,0.0,58,0.8642,SCATTERED
+acrB,emrA,0.4681,0.0,58,0.8644,SCATTERED
+evgS,mdtF,0.5232,0.0,61,0.8644,SCATTERED
+acrB,mdtE,0.4681,0.0,58,0.8644,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtC,0.5774,0.0,70,0.8645,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtC,0.6929,0.0,74,0.8645,SCATTERED
+marA,mdtC,0.6929,0.0,74,0.8645,SCATTERED
+evgS,mdtH,0.743,0.0,75,0.8647,SCATTERED
+evgA,mdtH,0.743,0.0,75,0.8647,SCATTERED
+emrB,mdtE,0.4888,0.0,58,0.8649,SCATTERED
+emrA,emrB,0.4888,0.0,58,0.8649,SCATTERED
+acrD,emrK,0.6929,0.0,74,0.865,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtH,0.6509,0.0,73,0.865,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtO,0.4998,0.0,63,0.8651,SCATTERED
+marA,mdtE,0.4681,0.0,58,0.8651,SCATTERED
+mdtE,msbA,0.4681,0.0,58,0.8651,SCATTERED
+acrB,acrD,0.6929,0.0,74,0.8651,SCATTERED
+emrA,marA,0.4681,0.0,58,0.8651,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,emrA,0.4681,0.0,58,0.8651,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtC,0.6929,0.0,74,0.8651,SCATTERED
+emrA,msbA,0.4681,0.0,58,0.8651,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtE,0.4681,0.0,58,0.8651,SCATTERED
+TolC,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+bacA,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+baeS,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+gadX,mdtH,0.743,0.0,75,0.8652,SCATTERED
+YojI,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+mdtH,vanG,0.7128,0.0,75,0.8652,SCATTERED
+emrK,mdtC,0.7559,0.0,75,0.8652,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtO,0.5639,0.0,66,0.8652,SCATTERED
+gadX,mdtC,0.7839,0.0,75,0.8652,SCATTERED
+acrB,mdtC,0.7559,0.0,75,0.8652,SCATTERED
+CRP,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+cpxA,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+Klebsiella pneumoniae KpnF,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+H-NS,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+Escherichia coli acrA,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+mdtC,rsmA,0.7276,0.0,75,0.8652,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+mdtC,mdtH,0.9733,0.0,75,0.8652,SCATTERED
+emrY,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+Klebsiella pneumoniae KpnE,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+baeR,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+marA,mdtO,0.5639,0.0,66,0.8652,SCATTERED
+emrR,mdtC,0.7276,0.0,75,0.8652,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,mdtH,0.5726,0.0,70,0.8654,SCATTERED
+evgA,mdtF,0.4684,0.0,60,0.8657,SCATTERED
+Klebsiella pneumoniae KpnF,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+emrY,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+kdpE,mdtF,0.8762,0.0,62,0.8658,SCATTERED
+Escherichia coli acrA,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+TolC,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+emrR,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+Klebsiella pneumoniae KpnE,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+acrB,mdtF,0.5575,0.0,62,0.8658,SCATTERED
+baeS,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+YojI,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+bacA,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+mdtF,vanG,0.5575,0.0,62,0.8658,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtF,0.5575,0.0,62,0.8658,SCATTERED
+H-NS,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+baeR,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+CRP,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+mdtF,rsmA,0.5366,0.0,62,0.8658,SCATTERED
+cpxA,mdtF,0.5366,0.0,62,0.8658,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtF,0.3811,0.0002,57,0.8659,SCATTERED
+msbA,ugd,0.4474,0.0,56,0.866,SCATTERED
+Klebsiella pneumoniae KpnE,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+baeR,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+CRP,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+H-NS,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+Escherichia coli acrA,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+PmrF,mdtO,0.8886,0.0,67,0.8663,SCATTERED
+acrB,mdtO,0.6219,0.0,67,0.8663,SCATTERED
+baeS,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+emrK,mdtO,0.6219,0.0,67,0.8663,SCATTERED
+Klebsiella pneumoniae KpnF,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+evgS,mdtC,0.7224,0.0,74,0.8663,SCATTERED
+eptA,mdtO,0.7346,0.0,67,0.8663,SCATTERED
+TolC,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+mdtO,rsmA,0.5986,0.0,67,0.8663,SCATTERED
+YojI,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+emrY,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+cpxA,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+emrR,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+mdtO,msbA,0.6219,0.0,67,0.8663,SCATTERED
+mdtH,mdtO,0.8007,0.0,67,0.8663,SCATTERED
+bacA,mdtO,0.5986,0.0,67,0.8663,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtO,0.5639,0.0,66,0.8664,SCATTERED
+emrA,gadX,0.4888,0.0,58,0.8664,SCATTERED
+evgA,mdtC,0.7224,0.0,74,0.8664,SCATTERED
+gadX,mdtE,0.4888,0.0,58,0.8664,SCATTERED
+acrD,evgA,0.6609,0.0,73,0.8665,SCATTERED
+emrK,ugd,0.4474,0.0,56,0.8665,SCATTERED
+evgS,mdtE,0.4888,0.0,58,0.8665,SCATTERED
+emrA,evgS,0.4888,0.0,58,0.8665,SCATTERED
+acrB,ugd,0.4474,0.0,56,0.8666,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,acrD,0.6929,0.0,74,0.8667,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtC,0.6312,0.0,72,0.8667,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,acrD,0.6351,0.0,71,0.8669,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,emrA,0.3456,0.0007,54,0.8669,SCATTERED
+mdtC,vanG,0.6929,0.0,74,0.8669,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtE,0.3456,0.0007,54,0.8669,SCATTERED
+acrD,gadX,0.6609,0.0,73,0.867,SCATTERED
+TolC,acrD,0.7276,0.0,75,0.8671,SCATTERED
+CRP,acrD,0.7276,0.0,75,0.8671,SCATTERED
+YojI,acrD,0.7276,0.0,75,0.8671,SCATTERED
+Escherichia coli acrA,acrD,0.7276,0.0,75,0.8671,SCATTERED
+acrD,bacA,0.7276,0.0,75,0.8671,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,acrD,0.7276,0.0,75,0.8671,SCATTERED
+acrD,baeR,0.7276,0.0,75,0.8671,SCATTERED
+acrD,baeS,0.7276,0.0,75,0.8671,SCATTERED
+acrD,msbA,0.7559,0.0,75,0.8671,SCATTERED
+acrD,cpxA,0.7276,0.0,75,0.8671,SCATTERED
+H-NS,acrD,0.7276,0.0,75,0.8671,SCATTERED
+acrD,emrR,0.7276,0.0,75,0.8671,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,acrD,0.7559,0.0,75,0.8671,SCATTERED
+Klebsiella pneumoniae KpnF,acrD,0.7276,0.0,75,0.8671,SCATTERED
+acrD,emrY,0.7276,0.0,75,0.8671,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,acrD,0.7276,0.0,75,0.8671,SCATTERED
+Klebsiella pneumoniae KpnE,acrD,0.7276,0.0,75,0.8671,SCATTERED
+acrD,rsmA,0.7276,0.0,75,0.8671,SCATTERED
+acrD,marA,0.7559,0.0,75,0.8671,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,mdtC,0.5528,0.0,69,0.8672,SCATTERED
+evgS,mdtO,0.5882,0.0,66,0.8672,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",kdpE,0.5156,0.0,65,0.8674,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,ugd,0.3737,0.0002,53,0.8674,SCATTERED
+emrY,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+H-NS,emrA,0.5039,0.0,59,0.8675,SCATTERED
+emrA,vanG,0.5235,0.0,59,0.8675,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+Escherichia coli acrA,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+cpxA,emrA,0.5039,0.0,59,0.8675,SCATTERED
+CRP,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+Klebsiella pneumoniae KpnF,emrA,0.5039,0.0,59,0.8675,SCATTERED
+cpxA,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+mdtE,rsmA,0.5039,0.0,59,0.8675,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+YojI,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,emrA,0.5039,0.0,59,0.8675,SCATTERED
+emrA,emrR,0.5039,0.0,59,0.8675,SCATTERED
+emrA,emrY,0.5039,0.0,59,0.8675,SCATTERED
+TolC,emrA,0.5039,0.0,59,0.8675,SCATTERED
+emrA,rsmA,0.5039,0.0,59,0.8675,SCATTERED
+Klebsiella pneumoniae KpnF,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+emrA,kdpE,0.8229,0.0,59,0.8675,SCATTERED
+CRP,emrA,0.5039,0.0,59,0.8675,SCATTERED
+baeS,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+baeR,emrA,0.5039,0.0,59,0.8675,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,emrA,0.5039,0.0,59,0.8675,SCATTERED
+Klebsiella pneumoniae KpnE,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+Klebsiella pneumoniae KpnE,emrA,0.5039,0.0,59,0.8675,SCATTERED
+mdtE,vanG,0.5235,0.0,59,0.8675,SCATTERED
+Escherichia coli acrA,emrA,0.5039,0.0,59,0.8675,SCATTERED
+YojI,emrA,0.5039,0.0,59,0.8675,SCATTERED
+bacA,emrA,0.5039,0.0,59,0.8675,SCATTERED
+kdpE,mdtE,0.8229,0.0,59,0.8675,SCATTERED
+H-NS,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtE,0.5235,0.0,59,0.8675,SCATTERED
+bacA,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+TolC,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+emrA,mdtE,1.0,0.0,59,0.8675,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,emrA,0.5235,0.0,59,0.8675,SCATTERED
+baeR,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+emrR,mdtE,0.5039,0.0,59,0.8675,SCATTERED
+baeS,emrA,0.5039,0.0,59,0.8675,SCATTERED
+evgA,mdtO,0.5882,0.0,66,0.8677,SCATTERED
+evgA,mdtE,0.4346,0.0,57,0.8677,SCATTERED
+emrA,evgA,0.4346,0.0,57,0.8677,SCATTERED
+mdtF,ugd,0.7765,0.0,54,0.8677,SCATTERED
+mdtO,vanG,0.5639,0.0,66,0.8679,SCATTERED
+emrB,mdtO,0.5882,0.0,66,0.8679,SCATTERED
+gadX,mdtO,0.5882,0.0,66,0.8679,SCATTERED
+mdtC,mdtO,0.7735,0.0,66,0.8679,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,gadW,0.3589,0.0003,22,0.8683,SCATTERED
+acrD,evgS,0.7224,0.0,74,0.8684,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtO,0.5015,0.0,64,0.8686,SCATTERED
+emrA,ugd,0.7134,0.0,51,0.8687,SCATTERED
+mdtE,ugd,0.7134,0.0,51,0.8687,SCATTERED
+evgS,ugd,0.4673,0.0,56,0.8689,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,mdtO,0.4214,0.0001,61,0.8689,SCATTERED
+acrD,vanG,0.6929,0.0,74,0.8689,SCATTERED
+acrD,emrB,0.7224,0.0,74,0.869,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,kdpE,0.4358,0.0,62,0.8694,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",acrD,0.6312,0.0,72,0.8694,SCATTERED
+YojI,ugd,0.4837,0.0,57,0.8697,SCATTERED
+kdpE,ugd,0.7898,0.0,57,0.8697,SCATTERED
+baeR,ugd,0.4837,0.0,57,0.8697,SCATTERED
+marA,ugd,0.5025,0.0,57,0.8697,SCATTERED
+emrR,ugd,0.4837,0.0,57,0.8697,SCATTERED
+baeS,ugd,0.4837,0.0,57,0.8697,SCATTERED
+cpxA,ugd,0.4837,0.0,57,0.8697,SCATTERED
+rsmA,ugd,0.4837,0.0,57,0.8697,SCATTERED
+bacA,ugd,0.4837,0.0,57,0.8697,SCATTERED
+emrY,ugd,0.4837,0.0,57,0.8697,SCATTERED
+H-NS,ugd,0.4837,0.0,57,0.8697,SCATTERED
+ugd,vanG,0.5025,0.0,57,0.8697,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,ugd,0.4837,0.0,57,0.8697,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,ugd,0.5025,0.0,57,0.8697,SCATTERED
+Klebsiella pneumoniae KpnF,ugd,0.4837,0.0,57,0.8697,SCATTERED
+Klebsiella pneumoniae KpnE,ugd,0.4837,0.0,57,0.8697,SCATTERED
+CRP,ugd,0.4837,0.0,57,0.8697,SCATTERED
+TolC,ugd,0.4837,0.0,57,0.8697,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,ugd,0.5025,0.0,57,0.8697,SCATTERED
+Escherichia coli acrA,ugd,0.4837,0.0,57,0.8697,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,ugd,0.4837,0.0,57,0.8697,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,acrD,0.5528,0.0,69,0.87,SCATTERED
+evgA,ugd,0.4135,0.0,55,0.8701,SCATTERED
+gadX,ugd,0.4135,0.0,55,0.8707,SCATTERED
+emrK,eptA,0.7795,0.0,78,0.8708,SCATTERED
+emrB,ugd,0.4673,0.0,56,0.8716,SCATTERED
+eptA,evgA,0.7471,0.0,77,0.8721,SCATTERED
+eptA,marA,0.7795,0.0,78,0.8721,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,eptA,0.7795,0.0,78,0.8721,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,eptA,0.7795,0.0,78,0.8729,SCATTERED
+Klebsiella pneumoniae KpnF,eptA,0.8148,0.0,79,0.873,SCATTERED
+eptA,msbA,0.8465,0.0,79,0.873,SCATTERED
+YojI,eptA,0.8148,0.0,79,0.873,SCATTERED
+baeR,eptA,0.8148,0.0,79,0.873,SCATTERED
+baeS,eptA,0.8148,0.0,79,0.873,SCATTERED
+eptA,rsmA,0.8148,0.0,79,0.873,SCATTERED
+H-NS,eptA,0.8148,0.0,79,0.873,SCATTERED
+cpxA,eptA,0.8148,0.0,79,0.873,SCATTERED
+CRP,eptA,0.8148,0.0,79,0.873,SCATTERED
+TolC,eptA,0.8148,0.0,79,0.873,SCATTERED
+Escherichia coli acrA,eptA,0.8148,0.0,79,0.873,SCATTERED
+acrB,eptA,0.8465,0.0,79,0.873,SCATTERED
+emrR,eptA,0.8148,0.0,79,0.873,SCATTERED
+Klebsiella pneumoniae KpnE,eptA,0.8148,0.0,79,0.873,SCATTERED
+bacA,eptA,0.8148,0.0,79,0.873,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,eptA,0.8148,0.0,79,0.873,SCATTERED
+emrY,eptA,0.8148,0.0,79,0.873,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,eptA,0.8148,0.0,79,0.873,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtF,0.4376,0.0,59,0.8731,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,eptA,0.7243,0.0,75,0.8732,SCATTERED
+eptA,evgS,0.7471,0.0,77,0.8732,SCATTERED
+mdtF,mdtM,0.6547,0.0,45,0.8735,SCATTERED
+eptA,gadX,0.7471,0.0,77,0.8737,SCATTERED
+emrK,mdtM,0.3563,0.0002,46,0.8737,SCATTERED
+acrB,mdtM,0.3563,0.0002,46,0.8738,SCATTERED
+emrB,mdtM,0.3728,0.0001,46,0.8746,SCATTERED
+eptA,vanG,0.7795,0.0,78,0.8747,SCATTERED
+emrB,eptA,0.8124,0.0,78,0.8748,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",eptA,0.717,0.0,76,0.8748,SCATTERED
+acrB,emrK,0.9256,0.0,83,0.8749,SCATTERED
+mdtM,msbA,0.3563,0.0002,46,0.8749,SCATTERED
+marA,mdtM,0.3563,0.0002,46,0.875,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,mdtM,0.3563,0.0002,46,0.875,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,mdtO,0.3789,0.0,26,0.875,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,mdtN,0.349,0.0002,26,0.875,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,PmrF,0.3291,0.0004,26,0.875,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,mdtP,0.3689,0.0001,26,0.875,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",emrA,0.4033,0.0001,56,0.8753,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtE,0.4033,0.0001,56,0.8753,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,eptA,0.6383,0.0,73,0.8756,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,mdtF,0.3551,0.0005,56,0.8757,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,Escherichia coli mdfA,0.3046,0.0016,24,0.8758,SCATTERED
+acrB,evgA,0.8917,0.0,82,0.876,SCATTERED
+emrK,evgA,0.8917,0.0,82,0.876,SCATTERED
+emrK,msbA,0.9256,0.0,83,0.876,SCATTERED
+acrB,msbA,0.9256,0.0,83,0.8761,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,emrK,0.9256,0.0,83,0.8763,SCATTERED
+emrK,marA,0.9256,0.0,83,0.8763,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,acrB,0.9256,0.0,83,0.8763,SCATTERED
+acrB,marA,0.9256,0.0,83,0.8763,SCATTERED
+gadX,mdtM,0.3728,0.0001,46,0.8764,SCATTERED
+evgS,mdtM,0.3728,0.0001,46,0.8766,SCATTERED
+emrK,emrR,0.9625,0.0,84,0.8768,SCATTERED
+emrK,emrY,0.9625,0.0,84,0.8768,SCATTERED
+mdtE,mdtM,0.785,0.0,47,0.8768,SCATTERED
+YojI,acrB,0.9625,0.0,84,0.8768,SCATTERED
+Klebsiella pneumoniae KpnE,acrB,0.9625,0.0,84,0.8768,SCATTERED
+bacA,emrK,0.9625,0.0,84,0.8768,SCATTERED
+Klebsiella pneumoniae KpnE,emrK,0.9625,0.0,84,0.8768,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,mdtM,0.4208,0.0,46,0.8768,SCATTERED
+baeS,emrK,0.9625,0.0,84,0.8768,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,emrK,0.9256,0.0,83,0.8768,SCATTERED
+H-NS,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+mdtM,vanG,0.411,0.0,47,0.8768,SCATTERED
+baeS,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+H-NS,emrK,0.9625,0.0,84,0.8768,SCATTERED
+mdtM,rsmA,0.3956,0.0,47,0.8768,SCATTERED
+H-NS,acrB,0.9625,0.0,84,0.8768,SCATTERED
+cpxA,emrK,0.9625,0.0,84,0.8768,SCATTERED
+baeR,emrK,0.9625,0.0,84,0.8768,SCATTERED
+CRP,acrB,0.9625,0.0,84,0.8768,SCATTERED
+YojI,emrK,0.9625,0.0,84,0.8768,SCATTERED
+cpxA,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+CRP,emrK,0.9625,0.0,84,0.8768,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,emrK,0.9625,0.0,84,0.8768,SCATTERED
+emrA,mdtM,0.785,0.0,47,0.8768,SCATTERED
+bacA,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,mdtM,0.411,0.0,47,0.8768,SCATTERED
+CRP,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,acrB,0.9625,0.0,84,0.8768,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,acrB,0.9256,0.0,83,0.8768,SCATTERED
+emrK,rsmA,0.9625,0.0,84,0.8768,SCATTERED
+acrB,bacA,0.9625,0.0,84,0.8768,SCATTERED
+acrB,baeR,0.9625,0.0,84,0.8768,SCATTERED
+acrB,baeS,0.9625,0.0,84,0.8768,SCATTERED
+acrB,cpxA,0.9625,0.0,84,0.8768,SCATTERED
+acrB,emrR,0.9625,0.0,84,0.8768,SCATTERED
+acrB,emrY,0.9625,0.0,84,0.8768,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,emrK,0.9625,0.0,84,0.8768,SCATTERED
+TolC,acrB,0.9625,0.0,84,0.8768,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,acrB,0.9625,0.0,84,0.8768,SCATTERED
+Klebsiella pneumoniae KpnF,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+acrB,rsmA,0.9625,0.0,84,0.8768,SCATTERED
+TolC,emrK,0.9625,0.0,84,0.8768,SCATTERED
+Klebsiella pneumoniae KpnF,emrK,0.9625,0.0,84,0.8768,SCATTERED
+baeR,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+kdpE,mdtM,0.646,0.0,47,0.8768,SCATTERED
+YojI,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+emrY,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+Klebsiella pneumoniae KpnE,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+Escherichia coli acrA,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+Klebsiella pneumoniae KpnF,acrB,0.9625,0.0,84,0.8768,SCATTERED
+Escherichia coli acrA,emrK,0.9625,0.0,84,0.8768,SCATTERED
+Escherichia coli acrA,acrB,0.9625,0.0,84,0.8768,SCATTERED
+TolC,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+emrR,mdtM,0.3956,0.0,47,0.8768,SCATTERED
+marA,msbA,0.9256,0.0,83,0.8772,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,msbA,0.9256,0.0,83,0.8772,SCATTERED
+evgA,msbA,0.8917,0.0,82,0.8772,SCATTERED
+emrK,evgS,0.8917,0.0,82,0.8773,SCATTERED
+acrB,evgS,0.8917,0.0,82,0.8774,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,acrB,0.8047,0.0,79,0.8775,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,evgA,0.8917,0.0,82,0.8775,SCATTERED
+evgA,marA,0.8917,0.0,82,0.8775,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,emrK,0.8047,0.0,79,0.8775,SCATTERED
+acrB,emrB,0.8917,0.0,82,0.8776,SCATTERED
+emrB,emrK,0.8917,0.0,82,0.8776,SCATTERED
+emrR,msbA,0.9625,0.0,84,0.8777,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,msbA,0.9625,0.0,84,0.8777,SCATTERED
+cpxA,msbA,0.9625,0.0,84,0.8777,SCATTERED
+Escherichia coli acrA,msbA,0.9625,0.0,84,0.8777,SCATTERED
+H-NS,msbA,0.9625,0.0,84,0.8777,SCATTERED
+CRP,msbA,0.9625,0.0,84,0.8777,SCATTERED
+msbA,rsmA,0.9625,0.0,84,0.8777,SCATTERED
+emrY,msbA,0.9625,0.0,84,0.8777,SCATTERED
+baeR,msbA,0.9625,0.0,84,0.8777,SCATTERED
+baeS,msbA,0.9625,0.0,84,0.8777,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,msbA,0.9625,0.0,84,0.8777,SCATTERED
+emrK,gadX,0.8917,0.0,82,0.8777,SCATTERED
+TolC,msbA,0.9625,0.0,84,0.8777,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,msbA,0.9256,0.0,83,0.8777,SCATTERED
+bacA,msbA,0.9625,0.0,84,0.8777,SCATTERED
+acrB,gadX,0.8917,0.0,82,0.8777,SCATTERED
+Klebsiella pneumoniae KpnF,msbA,0.9625,0.0,84,0.8777,SCATTERED
+YojI,msbA,0.9625,0.0,84,0.8777,SCATTERED
+Klebsiella pneumoniae KpnE,msbA,0.9625,0.0,84,0.8777,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,mdtE,0.319,0.0017,53,0.8778,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,emrA,0.319,0.0017,53,0.8778,SCATTERED
+emrY,evgA,0.9282,0.0,83,0.8779,SCATTERED
+TolC,evgA,0.9282,0.0,83,0.8779,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,evgA,0.9282,0.0,83,0.8779,SCATTERED
+baeR,evgA,0.9282,0.0,83,0.8779,SCATTERED
+Escherichia coli acrA,evgA,0.9282,0.0,83,0.8779,SCATTERED
+CRP,evgA,0.9282,0.0,83,0.8779,SCATTERED
+cpxA,evgA,0.9282,0.0,83,0.8779,SCATTERED
+YojI,evgA,0.9282,0.0,83,0.8779,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,evgA,0.9282,0.0,83,0.8779,SCATTERED
+emrR,evgA,0.9282,0.0,83,0.8779,SCATTERED
+evgA,rsmA,0.9282,0.0,83,0.8779,SCATTERED
+H-NS,evgA,0.9282,0.0,83,0.8779,SCATTERED
+Klebsiella pneumoniae KpnE,evgA,0.9282,0.0,83,0.8779,SCATTERED
+baeS,evgA,0.9282,0.0,83,0.8779,SCATTERED
+bacA,evgA,0.9282,0.0,83,0.8779,SCATTERED
+Klebsiella pneumoniae KpnF,evgA,0.9282,0.0,83,0.8779,SCATTERED
+Escherichia coli acrA,marA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,emrY,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,marA,1.0,0.0,84,0.878,SCATTERED
+CRP,marA,0.9625,0.0,84,0.878,SCATTERED
+Klebsiella pneumoniae KpnE,marA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,rsmA,0.9625,0.0,84,0.878,SCATTERED
+Klebsiella pneumoniae KpnF,marA,0.9625,0.0,84,0.878,SCATTERED
+H-NS,marA,0.9625,0.0,84,0.878,SCATTERED
+cpxA,marA,0.9625,0.0,84,0.878,SCATTERED
+emrR,marA,0.9625,0.0,84,0.878,SCATTERED
+TolC,marA,0.9625,0.0,84,0.878,SCATTERED
+bacA,marA,0.9625,0.0,84,0.878,SCATTERED
+YojI,marA,0.9625,0.0,84,0.878,SCATTERED
+CRP,Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Klebsiella pneumoniae KpnF,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,emrR,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli acrA,0.9625,0.0,84,0.878,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,marA,0.9256,0.0,83,0.878,SCATTERED
+emrY,marA,0.9625,0.0,84,0.878,SCATTERED
+baeS,marA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Klebsiella pneumoniae KpnE,0.9625,0.0,84,0.878,SCATTERED
+baeR,marA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,TolC,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,YojI,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,cpxA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,bacA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,baeR,0.9625,0.0,84,0.878,SCATTERED
+marA,rsmA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.9256,0.0,83,0.878,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,marA,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,baeS,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,H-NS,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli soxS with mutation conferring antibiotic resistance,0.9625,0.0,84,0.878,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,marA,0.9625,0.0,84,0.878,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",emrK,0.8605,0.0,81,0.8781,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",ugd,0.3817,0.0002,54,0.8781,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,evgA,0.8917,0.0,82,0.8781,SCATTERED
+evgA,mdtM,0.3195,0.0011,45,0.8781,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",evgA,0.8967,0.0,81,0.8782,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",acrB,0.8605,0.0,81,0.8782,SCATTERED
+evgS,msbA,0.8917,0.0,82,0.8782,SCATTERED
+emrB,msbA,0.8917,0.0,82,0.8783,SCATTERED
+emrR,emrY,1.0,0.0,85,0.8784,SCATTERED
+TolC,cpxA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,YojI,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,emrY,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,emrR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,TolC,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,Klebsiella pneumoniae KpnF,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,baeR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,Klebsiella pneumoniae KpnE,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,H-NS,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,baeS,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,cpxA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,baeS,1.0,0.0,85,0.8784,SCATTERED
+emrY,rsmA,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,bacA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,Escherichia coli soxS with mutation conferring antibiotic resistance,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,baeR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,bacA,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,cpxA,1.0,0.0,85,0.8784,SCATTERED
+bacA,emrR,1.0,0.0,85,0.8784,SCATTERED
+bacA,emrY,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,emrR,1.0,0.0,85,0.8784,SCATTERED
+bacA,cpxA,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,bacA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,baeS,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,baeR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,YojI,1.0,0.0,85,0.8784,SCATTERED
+TolC,baeS,1.0,0.0,85,0.8784,SCATTERED
+TolC,baeR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,rsmA,1.0,0.0,85,0.8784,SCATTERED
+TolC,bacA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,rsmA,1.0,0.0,85,0.8784,SCATTERED
+TolC,YojI,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,rsmA,1.0,0.0,85,0.8784,SCATTERED
+emrK,vanG,0.9256,0.0,83,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,emrY,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,emrY,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,emrR,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,emrR,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,cpxA,1.0,0.0,85,0.8784,SCATTERED
+emrR,rsmA,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,TolC,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,baeS,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,baeR,1.0,0.0,85,0.8784,SCATTERED
+bacA,baeR,1.0,0.0,85,0.8784,SCATTERED
+bacA,baeS,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,YojI,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,rsmA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,cpxA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli acrA,bacA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,TolC,1.0,0.0,85,0.8784,SCATTERED
+YojI,bacA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Klebsiella pneumoniae KpnE,1.0,0.0,85,0.8784,SCATTERED
+CRP,baeS,1.0,0.0,85,0.8784,SCATTERED
+H-NS,emrY,1.0,0.0,85,0.8784,SCATTERED
+CRP,cpxA,1.0,0.0,85,0.8784,SCATTERED
+H-NS,emrR,1.0,0.0,85,0.8784,SCATTERED
+YojI,emrR,1.0,0.0,85,0.8784,SCATTERED
+CRP,emrR,1.0,0.0,85,0.8784,SCATTERED
+CRP,baeR,1.0,0.0,85,0.8784,SCATTERED
+baeS,rsmA,1.0,0.0,85,0.8784,SCATTERED
+CRP,emrY,1.0,0.0,85,0.8784,SCATTERED
+H-NS,baeS,1.0,0.0,85,0.8784,SCATTERED
+H-NS,baeR,1.0,0.0,85,0.8784,SCATTERED
+H-NS,bacA,1.0,0.0,85,0.8784,SCATTERED
+baeR,emrY,1.0,0.0,85,0.8784,SCATTERED
+YojI,emrY,1.0,0.0,85,0.8784,SCATTERED
+H-NS,cpxA,1.0,0.0,85,0.8784,SCATTERED
+baeR,emrR,1.0,0.0,85,0.8784,SCATTERED
+CRP,bacA,1.0,0.0,85,0.8784,SCATTERED
+YojI,cpxA,1.0,0.0,85,0.8784,SCATTERED
+YojI,baeR,1.0,0.0,85,0.8784,SCATTERED
+CRP,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,1.0,0.0,85,0.8784,SCATTERED
+CRP,Escherichia coli acrA,1.0,0.0,85,0.8784,SCATTERED
+baeR,rsmA,1.0,0.0,85,0.8784,SCATTERED
+CRP,Escherichia coli soxS with mutation conferring antibiotic resistance,1.0,0.0,85,0.8784,SCATTERED
+CRP,H-NS,1.0,0.0,85,0.8784,SCATTERED
+CRP,YojI,1.0,0.0,85,0.8784,SCATTERED
+baeS,cpxA,1.0,0.0,85,0.8784,SCATTERED
+CRP,Klebsiella pneumoniae KpnF,1.0,0.0,85,0.8784,SCATTERED
+baeS,emrR,1.0,0.0,85,0.8784,SCATTERED
+baeS,emrY,1.0,0.0,85,0.8784,SCATTERED
+CRP,TolC,1.0,0.0,85,0.8784,SCATTERED
+YojI,baeS,1.0,0.0,85,0.8784,SCATTERED
+H-NS,rsmA,1.0,0.0,85,0.8784,SCATTERED
+CRP,Klebsiella pneumoniae KpnE,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Klebsiella pneumoniae KpnF,1.0,0.0,85,0.8784,SCATTERED
+cpxA,emrR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,TolC,1.0,0.0,85,0.8784,SCATTERED
+cpxA,emrY,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,Klebsiella pneumoniae KpnF,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,Klebsiella pneumoniae KpnE,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,H-NS,1.0,0.0,85,0.8784,SCATTERED
+TolC,emrY,1.0,0.0,85,0.8784,SCATTERED
+TolC,emrR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,YojI,1.0,0.0,85,0.8784,SCATTERED
+acrB,vanG,0.9256,0.0,83,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,Klebsiella pneumoniae KpnF,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,TolC,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli acrA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli soxS with mutation conferring antibiotic resistance,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,H-NS,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnE,YojI,1.0,0.0,85,0.8784,SCATTERED
+YojI,rsmA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,bacA,1.0,0.0,85,0.8784,SCATTERED
+Klebsiella pneumoniae KpnF,emrY,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,baeS,1.0,0.0,85,0.8784,SCATTERED
+H-NS,YojI,1.0,0.0,85,0.8784,SCATTERED
+H-NS,TolC,1.0,0.0,85,0.8784,SCATTERED
+H-NS,Klebsiella pneumoniae KpnF,1.0,0.0,85,0.8784,SCATTERED
+H-NS,Klebsiella pneumoniae KpnE,1.0,0.0,85,0.8784,SCATTERED
+CRP,rsmA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,baeR,1.0,0.0,85,0.8784,SCATTERED
+baeR,cpxA,1.0,0.0,85,0.8784,SCATTERED
+TolC,rsmA,1.0,0.0,85,0.8784,SCATTERED
+baeR,baeS,1.0,0.0,85,0.8784,SCATTERED
+bacA,rsmA,1.0,0.0,85,0.8784,SCATTERED
+cpxA,rsmA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,emrY,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,emrR,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,cpxA,1.0,0.0,85,0.8784,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,rsmA,1.0,0.0,85,0.8784,SCATTERED
+evgA,evgS,0.8583,0.0,81,0.8785,SCATTERED
+CRP,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.9625,0.0,84,0.8785,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,evgS,0.8917,0.0,82,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,bacA,0.9625,0.0,84,0.8785,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.9625,0.0,84,0.8785,SCATTERED
+evgS,marA,0.8917,0.0,82,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,baeR,0.9625,0.0,84,0.8785,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,msbA,0.8047,0.0,79,0.8785,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,rsmA,0.9625,0.0,84,0.8785,SCATTERED
+emrB,gadX,0.9291,0.0,82,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,emrY,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,emrR,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,cpxA,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,Klebsiella pneumoniae KpnE,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,baeS,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,Klebsiella pneumoniae KpnF,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,TolC,0.9625,0.0,84,0.8785,SCATTERED
+Escherichia coli acrA,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.9625,0.0,84,0.8785,SCATTERED
+H-NS,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.9625,0.0,84,0.8785,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,YojI,0.9625,0.0,84,0.8785,SCATTERED
+gadX,msbA,0.8917,0.0,82,0.8786,SCATTERED
+emrB,marA,0.8917,0.0,82,0.8787,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,emrB,0.8917,0.0,82,0.8787,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,evgA,0.772,0.0,78,0.8787,SCATTERED
+emrB,evgA,0.8583,0.0,81,0.8788,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,marA,0.8047,0.0,79,0.8788,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli soxR with mutation conferring antibiotic resistance,0.8047,0.0,79,0.8788,SCATTERED
+evgA,gadX,0.8583,0.0,81,0.8788,SCATTERED
+evgS,rsmA,0.9282,0.0,83,0.8789,SCATTERED
+Klebsiella pneumoniae KpnE,evgS,0.9282,0.0,83,0.8789,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,gadX,0.8917,0.0,82,0.8789,SCATTERED
+H-NS,evgS,0.9282,0.0,83,0.8789,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,evgS,0.9282,0.0,83,0.8789,SCATTERED
+gadX,marA,0.8917,0.0,82,0.8789,SCATTERED
+emrR,evgS,0.9282,0.0,83,0.8789,SCATTERED
+baeS,evgS,0.9282,0.0,83,0.8789,SCATTERED
+bacA,evgS,0.9282,0.0,83,0.8789,SCATTERED
+YojI,evgS,0.9282,0.0,83,0.8789,SCATTERED
+cpxA,evgS,0.9282,0.0,83,0.8789,SCATTERED
+baeR,evgS,0.9282,0.0,83,0.8789,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,evgS,0.9282,0.0,83,0.8789,SCATTERED
+CRP,evgS,0.9282,0.0,83,0.8789,SCATTERED
+Escherichia coli acrA,evgS,0.9282,0.0,83,0.8789,SCATTERED
+Klebsiella pneumoniae KpnF,evgS,0.9282,0.0,83,0.8789,SCATTERED
+TolC,evgS,0.9282,0.0,83,0.8789,SCATTERED
+emrY,evgS,0.9282,0.0,83,0.8789,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,emrK,0.7795,0.0,78,0.879,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,evgA,0.8124,0.0,78,0.879,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,acrB,0.7795,0.0,78,0.879,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,evgS,0.8917,0.0,82,0.8791,SCATTERED
+TolC,emrB,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,emrB,0.9282,0.0,83,0.8792,SCATTERED
+emrB,rsmA,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,bacA,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,baeR,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,baeS,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli soxR with mutation conferring antibiotic resistance,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,cpxA,0.8402,0.0,80,0.8792,SCATTERED
+cpxA,emrB,0.9282,0.0,83,0.8792,SCATTERED
+YojI,emrB,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,rsmA,0.8402,0.0,80,0.8792,SCATTERED
+emrB,emrR,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli acrA,Escherichia coli soxR with mutation conferring antibiotic resistance,0.8402,0.0,80,0.8792,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",msbA,0.8605,0.0,81,0.8792,SCATTERED
+baeR,emrB,0.9282,0.0,83,0.8792,SCATTERED
+emrB,emrY,0.9282,0.0,83,0.8792,SCATTERED
+H-NS,emrB,0.9282,0.0,83,0.8792,SCATTERED
+CRP,emrB,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,emrY,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,emrR,0.8402,0.0,80,0.8792,SCATTERED
+bacA,emrB,0.9282,0.0,83,0.8792,SCATTERED
+Klebsiella pneumoniae KpnF,emrB,0.9282,0.0,83,0.8792,SCATTERED
+baeS,emrB,0.9282,0.0,83,0.8792,SCATTERED
+CRP,Escherichia coli soxR with mutation conferring antibiotic resistance,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,Escherichia coli soxS with mutation conferring antibiotic resistance,0.8402,0.0,80,0.8792,SCATTERED
+Klebsiella pneumoniae KpnE,emrB,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,H-NS,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli acrA,emrB,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,emrB,0.9282,0.0,83,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,Klebsiella pneumoniae KpnF,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,TolC,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,YojI,0.8402,0.0,80,0.8792,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,Klebsiella pneumoniae KpnE,0.8402,0.0,80,0.8792,SCATTERED
+CRP,gadX,0.9282,0.0,83,0.8793,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,gadX,0.9282,0.0,83,0.8793,SCATTERED
+emrY,gadX,0.9282,0.0,83,0.8793,SCATTERED
+Klebsiella pneumoniae KpnF,gadX,0.9282,0.0,83,0.8793,SCATTERED
+TolC,gadX,0.9282,0.0,83,0.8793,SCATTERED
+cpxA,gadX,0.9282,0.0,83,0.8793,SCATTERED
+Escherichia coli acrA,gadX,0.9282,0.0,83,0.8793,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,emrB,0.8917,0.0,82,0.8793,SCATTERED
+baeS,gadX,0.9282,0.0,83,0.8793,SCATTERED
+Klebsiella pneumoniae KpnE,gadX,0.9282,0.0,83,0.8793,SCATTERED
+emrR,gadX,0.9282,0.0,83,0.8793,SCATTERED
+gadX,rsmA,0.9282,0.0,83,0.8793,SCATTERED
+YojI,gadX,0.9282,0.0,83,0.8793,SCATTERED
+H-NS,gadX,0.9282,0.0,83,0.8793,SCATTERED
+bacA,gadX,0.9282,0.0,83,0.8793,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,gadX,0.9282,0.0,83,0.8793,SCATTERED
+baeR,gadX,0.9282,0.0,83,0.8793,SCATTERED
+msbA,vanG,0.9256,0.0,83,0.8794,SCATTERED
+evgS,gadX,0.8583,0.0,81,0.8794,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,gadX,0.8917,0.0,82,0.8794,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",marA,0.8605,0.0,81,0.8794,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.8047,0.0,79,0.8794,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,0.8605,0.0,81,0.8794,SCATTERED
+marA,vanG,0.9256,0.0,83,0.8796,SCATTERED
+evgA,vanG,0.8917,0.0,82,0.8796,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,vanG,0.9256,0.0,83,0.8796,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,evgS,0.772,0.0,78,0.8796,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",rsmA,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",bacA,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",TolC,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",cpxA,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",YojI,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",baeR,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",baeS,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",emrY,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Klebsiella pneumoniae KpnE,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",emrR,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",H-NS,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli soxS with mutation conferring antibiotic resistance,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli acrA,0.8966,0.0,82,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0.8966,0.0,82,0.8797,SCATTERED
+CRP,"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",0.8966,0.0,82,0.8797,SCATTERED
+emrB,evgS,0.8583,0.0,81,0.8797,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Klebsiella pneumoniae KpnF,0.8966,0.0,82,0.8797,SCATTERED
+mdtM,ugd,0.5346,0.0,40,0.8799,SCATTERED
+bacA,vanG,0.9625,0.0,84,0.88,SCATTERED
+CRP,vanG,0.9625,0.0,84,0.88,SCATTERED
+Escherichia coli soxS with mutation conferring antibiotic resistance,vanG,0.9625,0.0,84,0.88,SCATTERED
+cpxA,vanG,0.9625,0.0,84,0.88,SCATTERED
+YojI,vanG,0.9625,0.0,84,0.88,SCATTERED
+baeS,vanG,0.9625,0.0,84,0.88,SCATTERED
+rsmA,vanG,0.9625,0.0,84,0.88,SCATTERED
+TolC,vanG,0.9625,0.0,84,0.88,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,vanG,0.9625,0.0,84,0.88,SCATTERED
+emrY,vanG,0.9625,0.0,84,0.88,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,emrB,0.772,0.0,78,0.88,SCATTERED
+Klebsiella pneumoniae KpnE,vanG,0.9625,0.0,84,0.88,SCATTERED
+H-NS,vanG,0.9625,0.0,84,0.88,SCATTERED
+Klebsiella pneumoniae KpnF,vanG,0.9625,0.0,84,0.88,SCATTERED
+Escherichia coli acrA,vanG,0.9625,0.0,84,0.88,SCATTERED
+emrR,vanG,0.9625,0.0,84,0.88,SCATTERED
+baeR,vanG,0.9625,0.0,84,0.88,SCATTERED
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,vanG,0.9256,0.0,83,0.8801,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.8605,0.0,81,0.8801,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,gadX,0.772,0.0,78,0.8801,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,msbA,0.7795,0.0,78,0.8801,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",evgS,0.8274,0.0,80,0.8802,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,marA,0.7795,0.0,78,0.8803,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli GlpT with mutation conferring resistance to fosfomycin,0.7809,0.0,77,0.8803,SCATTERED
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline,Escherichia coli GlpT with mutation conferring resistance to fosfomycin,0.7795,0.0,78,0.8803,SCATTERED
+evgS,vanG,0.8917,0.0,82,0.8804,SCATTERED
+aadA5,mphA,0.8615,0.0,3,0.8805,SCATTERED
+aadA5,sul1,0.641,0.0002,3,0.8805,SCATTERED
+aadA5,qacEdelta1,0.6961,0.0001,3,0.8805,SCATTERED
+dfrA17,sul1,0.641,0.0002,3,0.8805,SCATTERED
+dfrA17,qacEdelta1,0.6961,0.0001,3,0.8805,SCATTERED
+dfrA17,mphA,0.8615,0.0,3,0.8805,SCATTERED
+aadA5,dfrA17,1.0,0.0,3,0.8805,SCATTERED
+CRP,Escherichia coli GlpT with mutation conferring resistance to fosfomycin,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,rsmA,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,TolC,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Escherichia coli acrA,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Klebsiella pneumoniae KpnE,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,Escherichia coli GlpT with mutation conferring resistance to fosfomycin,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Klebsiella pneumoniae KpnF,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,YojI,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Escherichia coli soxS with mutation conferring antibiotic resistance,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,baeR,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,bacA,0.8148,0.0,79,0.8806,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",gadX,0.8274,0.0,80,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,cpxA,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,emrR,0.8148,0.0,79,0.8806,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",Escherichia coli soxR with mutation conferring antibiotic resistance,0.7418,0.0,77,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,emrY,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,baeS,0.8148,0.0,79,0.8806,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,H-NS,0.8148,0.0,79,0.8806,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",emrB,0.8274,0.0,80,0.8807,SCATTERED
+Escherichia coli soxR with mutation conferring antibiotic resistance,vanG,0.8047,0.0,79,0.8808,SCATTERED
+gadX,vanG,0.8917,0.0,82,0.8808,SCATTERED
+emrB,vanG,0.8917,0.0,82,0.8808,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0.7795,0.0,78,0.8811,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,evgS,0.7471,0.0,77,0.8811,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",vanG,0.8605,0.0,81,0.8813,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,Escherichia coli soxR with mutation conferring antibiotic resistance,0.6629,0.0,74,0.8813,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,gadX,0.7471,0.0,77,0.8815,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,emrB,0.7471,0.0,77,0.8816,SCATTERED
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,vanG,0.7795,0.0,78,0.8822,SCATTERED
+"Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime",mdtM,0.3369,0.0006,45,0.8831,SCATTERED
+Escherichia coli gyrA conferring resistance to fluoroquinolones,eptA,0.3136,0.0005,27,0.8832,SCATTERED
+APH(3'')-Ib,qacEdelta1,0.5931,0.0005,3,0.9487,SCATTERED
+APH(3'')-Ib,sul1,0.544,0.0008,3,0.9487,SCATTERED
+APH(6)-Id,qacEdelta1,0.5931,0.0005,3,0.9487,SCATTERED
+APH(6)-Id,sul1,0.544,0.0008,3,0.9487,SCATTERED
+qacEdelta1,sul2,0.4258,0.0039,3,0.9783,SCATTERED
+sul1,sul2,0.3856,0.0067,3,0.9783,SCATTERED
+APH(6)-Id,sul2,0.544,0.0008,3,0.9786,SCATTERED
+APH(3'')-Ib,sul2,0.544,0.0008,3,0.9786,SCATTERED
+mphA,sul1,0.744,0.0,4,1.101,SCATTERED
+mphA,qacEdelta1,0.8079,0.0,4,1.101,SCATTERED
+APH(3'')-Ib,APH(6)-Id,1.0,0.0,4,1.1348,SCATTERED
+qacEdelta1,sul1,0.9209,0.0,6,1.1679,SCATTERED
+CTX-M-2,sul1,0.344,0.0237,2,1.2854,SCATTERED
+dfrA12,qacEdelta1,0.5654,0.003,2,1.3191,SCATTERED
+dfrA12,sul1,0.5207,0.0042,2,1.3191,SCATTERED
+aadA2,dfrA12,1.0,0.0002,2,1.3191,SCATTERED
+aadA2,qacEdelta1,0.5654,0.003,2,1.3191,SCATTERED
+aadA2,sul1,0.5207,0.0042,2,1.3191,SCATTERED
+CTX-M-15,mphA,0.3782,0.0172,2,1.3222,SCATTERED
+CTX-M-15,TEM-1,0.4492,0.0088,2,1.3244,SCATTERED

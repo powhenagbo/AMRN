@@ -1,0 +1,178 @@
+{
+  "D0C7T1": {
+    "gene_name": "LptD",
+    "organism": "Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / JCM 6841 / CCUG 19606 / CIP 70.34 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)"
+  },
+  "Q14JW6": {
+    "gene_name": "msbA",
+    "organism": "Francisella tularensis subsp. tularensis (strain FSC 198)"
+  },
+  "O64424": {
+    "gene_name": "Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin",
+    "organism": "Pyramimonas disomata"
+  },
+  "P0AE07": {
+    "gene_name": "Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline",
+    "organism": "Escherichia coli O157:H7"
+  },
+  "P0AEZ0": {
+    "gene_name": "Escherichia coli mdfA",
+    "organism": "Escherichia coli O157:H7"
+  },
+  "P0ACS0": {
+    "gene_name": "emrR",
+    "organism": "Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)"
+  },
+  "P00811": {
+    "gene_name": "Escherichia coli ampC beta-lactamase",
+    "organism": "Escherichia coli (strain K12)"
+  },
+  "P69229": {
+    "gene_name": "baeR",
+    "organism": "Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)"
+  },
+  "A0A0S1NET9": {
+    "gene_name": "dfrA1",
+    "organism": "Escherichia coli"
+  },
+  "P25110": {
+    "gene_name": "acrD",
+    "organism": "Rattus norvegicus"
+  },
+  "G3KIM7": {
+    "gene_name": "acrB",
+    "organism": "Anaerotignum propionicum"
+  },
+  "B5R0C1": {
+    "gene_name": "mdtC",
+    "organism": "Salmonella enteritidis PT4 (strain P125109)"
+  },
+  "P0A0D2": {
+    "gene_name": "ANT(3'')-IIa",
+    "organism": "Staphylococcus aureus"
+  },
+  "P0AES4": {
+    "gene_name": "Escherichia coli gyrA conferring resistance to fluoroquinolones",
+    "organism": "Escherichia coli (strain K12)"
+  },
+  "P51560": {
+    "gene_name": "tetR",
+    "organism": "Vibrio anguillarum"
+  },
+  "P0C002": {
+    "gene_name": "sul1",
+    "organism": "Escherichia coli"
+  },
+  "Q2GJB5": {
+    "gene_name": "APH(6)-Id",
+    "organism": "Anaplasma phagocytophilum (strain HZ)"
+  },
+  "Q1G696": {
+    "gene_name": "CTX-M-2",
+    "organism": "Vibrio cholerae"
+  },
+  "A0A0K2JZY2": {
+    "gene_name": "qacEdelta1",
+    "organism": "Klebsiella pneumoniae"
+  },
+  "H6UQJ6": {
+    "gene_name": "CTX-M-15",
+    "organism": "Escherichia coli"
+  },
+  "A0A1S6GW31": {
+    "gene_name": "aadA5",
+    "organism": "Escherichia coli"
+  },
+  "A0A1S6GW53": {
+    "gene_name": "dfrA17",
+    "organism": "Escherichia coli"
+  },
+  "A0AAX3AJQ0": {
+    "gene_name": "mphA",
+    "organism": "Enterobacter hormaechei subsp. steigerwaltii"
+  },
+  "A0A142CQG6": {
+    "gene_name": "FosA6",
+    "organism": "Escherichia coli"
+  },
+  "P79832": {
+    "gene_name": "ArnT",
+    "organism": "Oncorhynchus mykiss"
+  },
+  "P0A2S6": {
+    "gene_name": "marA",
+    "organism": "Salmonella enteritidis"
+  },
+  "P52599": {
+    "gene_name": "emrK",
+    "organism": "Escherichia coli (strain K12)"
+  },
+  "A1JRQ2": {
+    "gene_name": "mdtH",
+    "organism": "Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081)"
+  },
+  "B2ZF14": {
+    "gene_name": "dfrA12",
+    "organism": "Escherichia coli"
+  },
+  "P00555": {
+    "gene_name": "APH(3'')-Ib",
+    "organism": "Streptomyces fradiae"
+  },
+  "A0A0H4TXY1": {
+    "gene_name": "tet(B)",
+    "organism": "Unknown prokaryotic organism"
+  },
+  "A0A0U2YZB7": {
+    "gene_name": "aadA2",
+    "organism": "Salmonella typhimurium"
+  },
+  "P0ACF8": {
+    "gene_name": "H-NS",
+    "organism": "Escherichia coli (strain K12)"
+  },
+  "Q8FCI6": {
+    "gene_name": "gadX",
+    "organism": "Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)"
+  },
+  "P13018": {
+    "gene_name": "SAT-2",
+    "organism": "Escherichia coli"
+  },
+  "Q14TG7": {
+    "gene_name": "Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics",
+    "organism": "Haemophilus influenzae"
+  },
+  "P0ACS3": {
+    "gene_name": "Escherichia coli soxR with mutation conferring antibiotic resistance",
+    "organism": "Escherichia coli O157:H7"
+  },
+  "A0A6I8V6G3": {
+    "gene_name": "vanG",
+    "organism": "Drosophila pseudoobscura pseudoobscura"
+  },
+  "P30847": {
+    "gene_name": "baeS",
+    "organism": "Escherichia coli (strain K12)"
+  },
+  "O31855": {
+    "gene_name": "YojI",
+    "organism": "Bacillus subtilis (strain 168)"
+  },
+  "Q07203": {
+    "gene_name": "CRP",
+    "organism": "Xenopus laevis"
+  },
+  "A0A0H3JML2": {
+    "gene_name": "eptA",
+    "organism": "Escherichia coli O157:H7"
+  },
+  "P0AE83": {
+    "gene_name": "cpxA",
+    "organism": "Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)"
+  },
+  "Q8VPF3": {
+    "gene_name": "catI",
+    "organism": "Pseudomonas knackmussii (strain DSM 6978 / CCUG 54928 / LMG 23759 / B13)"
+  }
+}

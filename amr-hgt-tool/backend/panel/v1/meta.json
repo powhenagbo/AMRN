@@ -1,0 +1,6 @@
+{
+  "version": "v1",
+  "n_genomes": 0,
+  "taxon_scope": "Enterobacteriaceae",
+  "note": "Placeholder — replace n_genomes and add transmission_classification.csv / cooccurrence_classification.csv to this folder after running amr_transmission.py and amr_cooccurrence.py on the reference panel."
+}
