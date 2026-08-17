@@ -19,9 +19,53 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from itertools import combinations
 from scipy.stats import pearsonr
-from skbio.stats.distance import mantel, DistanceMatrix
 import warnings
 warnings.filterwarnings("ignore")
+
+
+def _upper_triangle_values(matrix):
+    arr = np.asarray(matrix, dtype=float)
+    idx = np.triu_indices_from(arr, k=1)
+    return arr[idx]
+
+
+def mantel_test(matrix_a, matrix_b, permutations=999, seed=42):
+    """
+    Lightweight Mantel test using Pearson correlation on the upper triangles
+    of two symmetric distance matrices. The permutation step shuffles sample
+    labels on matrix_b, preserving its distance structure while breaking the
+    correspondence to matrix_a.
+
+    Returns (r, p_value, permutations_run), matching the values used by the
+    previous scikit-bio call closely enough for the surrounding classification
+    logic to remain unchanged.
+    """
+    a = np.asarray(matrix_a, dtype=float)
+    b = np.asarray(matrix_b, dtype=float)
+    if a.shape != b.shape or a.ndim != 2 or a.shape[0] != a.shape[1]:
+        raise ValueError("Mantel inputs must be square matrices of the same shape.")
+
+    av = _upper_triangle_values(a)
+    bv = _upper_triangle_values(b)
+    if av.size < 2:
+        raise ValueError("Mantel test requires at least three samples.")
+
+    r_obs, _ = pearsonr(av, bv)
+    if np.isnan(r_obs):
+        raise ValueError("Mantel correlation is undefined for constant distances.")
+
+    rng = np.random.default_rng(seed)
+    extreme = 0
+    n = a.shape[0]
+    for _ in range(int(permutations)):
+        perm = rng.permutation(n)
+        bp = b[np.ix_(perm, perm)]
+        rp, _ = pearsonr(av, _upper_triangle_values(bp))
+        if not np.isnan(rp) and abs(rp) >= abs(r_obs):
+            extreme += 1
+
+    p_value = (extreme + 1) / (int(permutations) + 1)
+    return float(r_obs), float(p_value), int(permutations)
 
 
 # ──────────────────────────────────────────────────────────
@@ -47,7 +91,7 @@ def amr_sharing_matrix(amr_matrix: pd.DataFrame) -> pd.DataFrame:
 def per_gene_mantel(
     dist_df: pd.DataFrame,
     amr_matrix: pd.DataFrame,
-    permutations: int = 999,       # now properly passed from runner
+    permutations: int = 999,
     clonal_r: float = 0.4,
     hgt_r: float = 0.2
 ) -> pd.DataFrame:
@@ -70,11 +114,9 @@ def per_gene_mantel(
         presence = amr_aligned[gene].values.astype(int)
         n_carriers = int(presence.sum())
 
-        # Skip uninformative genes
         if n_carriers < 2 or n_carriers == n:
             continue
 
-        # Per-gene binary sharing distance matrix
         gene_dist = np.zeros((n, n))
         for i, j in combinations(range(n), 2):
             val = 0 if (presence[i] == 1 and presence[j] == 1) else 1
@@ -82,16 +124,16 @@ def per_gene_mantel(
             gene_dist[j][i] = val
 
         try:
-            dm_phylo = DistanceMatrix(dist_aligned.values, common)
-            dm_gene  = DistanceMatrix(gene_dist, common)
-            r, p, _  = mantel(dm_phylo, dm_gene,
-                               permutations=permutations,
-                               method="pearson")
+            r, p, _ = mantel_test(
+                dist_aligned.values,
+                gene_dist,
+                permutations=permutations,
+                seed=42,
+            )
         except Exception as e:
             print(f"  [WARN] Mantel failed for {gene}: {e}")
             continue
 
-        # Classify using configurable thresholds
         if r >= clonal_r and p <= 0.05:
             classification = "CLONAL"
         elif r < hgt_r or p > 0.05:
@@ -100,10 +142,10 @@ def per_gene_mantel(
             classification = "AMBIGUOUS"
 
         results.append({
-            "gene":           gene,
-            "mantel_r":       round(r, 4),
-            "p_value":        round(p, 4),
-            "n_carriers":     n_carriers,
+            "gene": gene,
+            "mantel_r": round(r, 4),
+            "p_value": round(p, 4),
+            "n_carriers": n_carriers,
             "classification": classification
         })
 
@@ -112,10 +154,6 @@ def per_gene_mantel(
 
     return pd.DataFrame(results).sort_values("mantel_r", ascending=False)
 
-
-# ──────────────────────────────────────────────────────────
-# Visualization
-# ──────────────────────────────────────────────────────────
 
 def plot_transmission_landscape(results_df: pd.DataFrame, outdir: str):
     """Mantel r vs -log10(p) per gene — core novel figure."""
@@ -126,12 +164,9 @@ def plot_transmission_landscape(results_df: pd.DataFrame, outdir: str):
     fig, axes = plt.subplots(1, 2, figsize=(14, 6))
     color_map = {"CLONAL": "#e74c3c", "HGT": "#3498db", "AMBIGUOUS": "#95a5a6"}
 
-    # ── Plot 1: Volcano-style ──
     ax = axes[0]
     colors = results_df["classification"].map(color_map)
     sizes  = results_df["n_carriers"] * 30
-
-    # Clip p-values to avoid inf in log
     p_clipped = results_df["p_value"].clip(lower=1e-10)
 
     ax.scatter(
@@ -145,7 +180,6 @@ def plot_transmission_landscape(results_df: pd.DataFrame, outdir: str):
     ax.axvline(x=0.2, color="#3498db", linestyle="--", alpha=0.5, label="HGT r=0.2")
     ax.axhline(y=-np.log10(0.05), color="gray", linestyle=":", alpha=0.5, label="p=0.05")
 
-    # Label top/bottom 5
     for _, row in pd.concat([
         results_df.nlargest(5, "mantel_r"),
         results_df.nsmallest(5, "mantel_r")
@@ -166,7 +200,6 @@ def plot_transmission_landscape(results_df: pd.DataFrame, outdir: str):
                  fontsize=12, fontweight="bold")
     ax.grid(True, alpha=0.2)
 
-    # ── Plot 2: Classification bar chart ──
     ax2 = axes[1]
     counts = results_df["classification"].value_counts()
     bar_colors = [color_map.get(c, "gray") for c in counts.index]
@@ -228,10 +261,6 @@ def plot_distance_vs_sharing(dist_df: pd.DataFrame, amr_matrix: pd.DataFrame, ou
     plt.close()
 
 
-# ──────────────────────────────────────────────────────────
-# Main runner
-# ──────────────────────────────────────────────────────────
-
 def run_transmission_analysis(
     dist_df: pd.DataFrame,
     amr_matrix: pd.DataFrame,
@@ -259,13 +288,13 @@ def run_transmission_analysis(
     results.to_csv(f"{outdir}/transmission_classification.csv", index=False)
     print(f"[Output] Classification table → {outdir}/transmission_classification.csv")
 
-    print(f"\n[Summary]")
+    print("\n[Summary]")
     print(results["classification"].value_counts().to_string())
-    print(f"\nTop CLONAL genes:")
+    print("\nTop CLONAL genes:")
     clonal = results[results["classification"] == "CLONAL"]
     if not clonal.empty:
         print(clonal.head(5)[["gene", "mantel_r", "p_value"]].to_string(index=False))
-    print(f"\nTop HGT genes:")
+    print("\nTop HGT genes:")
     hgt = results[results["classification"] == "HGT"]
     if not hgt.empty:
         print(hgt.head(5)[["gene", "mantel_r", "p_value"]].to_string(index=False))
