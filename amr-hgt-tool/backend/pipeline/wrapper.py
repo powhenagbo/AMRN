@@ -24,6 +24,7 @@ import json
 import math
 import os
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -140,14 +141,23 @@ def _parse_amrfinder_output(raw: pd.DataFrame) -> pd.DataFrame:
 
 def run_rgi(fasta_path: str, workdir: str) -> pd.DataFrame:
     """
-    Run CARD-RGI on a single genome FASTA via Docker, matching the
-    invocation in the AMR Pipeline Runbook (finlaymaguire/rgi:latest).
+    Run CARD-RGI on a single genome FASTA.
+
+    Two invocation modes, controlled by the RGI_MODE env var:
+      - "docker" (default): shells out to `docker run finlaymaguire/rgi:latest`,
+        matching the AMR Pipeline Runbook. Requires Docker running on the
+        host and the image already pulled:
+            docker pull finlaymaguire/rgi:latest
+        This is what local dev uses unmodified.
+      - "native": calls the `rgi` CLI directly (no nested container). Used
+        in the deployed Docker image on Render, which installs `rgi` via
+        conda/bioconda but has no Docker daemon available inside it to run
+        a second, nested container. Set RGI_MODE=native in that image's
+        environment (already set by the provided Dockerfile).
+
     Returns a normalized DataFrame: gene, drug_class, contig, start, stop,
     pct_identity — same shape as run_amrfinder() so downstream steps don't
     care which detector produced it.
-
-    Requires Docker running on the host and the image already pulled:
-        docker pull finlaymaguire/rgi:latest
 
     Note: RGI's CARD-derived gene names are what the reference panel's
     Mantel labels (transmission_classification.csv) are keyed on if the
@@ -164,29 +174,51 @@ def run_rgi(fasta_path: str, workdir: str) -> pd.DataFrame:
     out_prefix = f"rgi_{name}"
     out_txt = os.path.join(out_dir, f"{out_prefix}.txt")
 
-    # Skip re-running RGI/Docker if this genome was already processed —
-    # matters most for panel builds, where genome_workdir is deterministic
-    # per sample and a resumed build shouldn't redo finished genomes.
+    # Skip re-running RGI if this genome was already processed — matters
+    # most for panel builds, where genome_workdir is deterministic per
+    # sample and a resumed build shouldn't redo finished genomes.
     if os.path.exists(out_txt) and os.path.getsize(out_txt) > 0:
         raw = pd.read_csv(out_txt, sep="\t")
         return _parse_rgi_output(raw)
 
-    cmd = [
-        "docker", "run", "--rm", "--platform", "linux/amd64",
-        "-v", f"{genome_dir}:/genomes",
-        "-v", f"{out_dir}:/output",
-        "finlaymaguire/rgi:latest",
-        "rgi", "main",
-        "--input_sequence", f"/genomes/{genome_file}",
-        "--output_file", f"/output/{out_prefix}",
-        "--input_type", "contig",
-        "--alignment_tool", "BLAST",
-        "--clean",
-    ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    rgi_mode = os.environ.get("RGI_MODE", "docker").strip().lower()
+
+    if rgi_mode == "native":
+        if shutil.which("rgi") is None:
+            raise RuntimeError(
+                "RGI_MODE=native but `rgi` is not on PATH.\n"
+                "  conda install -c bioconda rgi\n"
+                "then load CARD reference data per the CARD-RGI docs."
+            )
+        cmd = [
+            "rgi", "main",
+            "--input_sequence", fasta_path,
+            "--output_file", os.path.join(out_dir, out_prefix),
+            "--input_type", "contig",
+            "--alignment_tool", "BLAST",
+            "--clean",
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, cwd=out_dir)
+        error_label = "RGI"
+    else:
+        cmd = [
+            "docker", "run", "--rm", "--platform", "linux/amd64",
+            "-v", f"{genome_dir}:/genomes",
+            "-v", f"{out_dir}:/output",
+            "finlaymaguire/rgi:latest",
+            "rgi", "main",
+            "--input_sequence", f"/genomes/{genome_file}",
+            "--output_file", f"/output/{out_prefix}",
+            "--input_type", "contig",
+            "--alignment_tool", "BLAST",
+            "--clean",
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        error_label = "RGI/Docker"
+
     if result.returncode != 0:
         raise RuntimeError(
-            f"RGI/Docker failed (exit {result.returncode}).\n"
+            f"{error_label} failed (exit {result.returncode}).\n"
             f"--- stdout (tail) ---\n{result.stdout[-2000:]}\n"
             f"--- stderr (tail) ---\n{result.stderr[-2000:]}"
         )

@@ -1,0 +1,20 @@
+# Place this at the AMRN repo root (replace the existing render.yaml if
+# you have one).
+#
+# Switches the backend from Render's native "python" runtime (no Docker
+# daemon available inside it) to a Docker-based service that installs
+# RGI, AMRFinderPlus, and CARD reference data directly into the image.
+# See the accompanying Dockerfile (amr-hgt-tool/backend/Dockerfile) and
+# the patched pipeline/wrapper.py (RGI_MODE=native, set by the Dockerfile).
+
+services:
+  - type: web
+    name: amrn-api
+    runtime: docker
+    dockerfilePath: ./amr-hgt-tool/backend/Dockerfile
+    dockerContext: ./amr-hgt-tool/backend
+    envVars:
+      - key: RGI_MODE
+        value: native          # already set in the Dockerfile too; harmless to duplicate
+      - key: OPENROUTER_API_KEY
+        sync: false            # set the real value in the Render dashboard, not here
