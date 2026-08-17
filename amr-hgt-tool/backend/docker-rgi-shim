@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+"""Translate AMRN's existing `docker run finlaymaguire/rgi ...` call into a
+local RGI invocation when the backend itself is running inside that RGI image.
+This keeps wrapper.py unchanged and preserves the same RGI flags/output format.
+"""
+import os
+import subprocess
+import sys
+
+args = sys.argv[1:]
+if not args or args[0] != "run":
+    print("AMRN Docker shim only supports the RGI `docker run` workflow", file=sys.stderr)
+    sys.exit(2)
+
+mounts = {}
+i = 1
+command_start = None
+while i < len(args):
+    a = args[i]
+    if a in ("--rm",):
+        i += 1
+        continue
+    if a == "--platform":
+        i += 2
+        continue
+    if a == "-v":
+        host, container = args[i + 1].split(":", 1)
+        mounts[container.rstrip("/")] = host.rstrip("/")
+        i += 2
+        continue
+    if a == "finlaymaguire/rgi:latest":
+        command_start = i + 1
+        break
+    print(f"Unsupported docker-shim argument: {a}", file=sys.stderr)
+    sys.exit(2)
+
+if command_start is None:
+    print("Expected finlaymaguire/rgi:latest image", file=sys.stderr)
+    sys.exit(2)
+
+cmd = args[command_start:]
+if not cmd or cmd[0] != "rgi":
+    print("Docker shim only supports RGI commands", file=sys.stderr)
+    sys.exit(2)
+
+def remap(value: str) -> str:
+    for container, host in mounts.items():
+        if value == container:
+            return host
+        prefix = container + "/"
+        if value.startswith(prefix):
+            return os.path.join(host, value[len(prefix):])
+    return value
+
+cmd = [remap(x) for x in cmd]
+proc = subprocess.run(cmd)
+sys.exit(proc.returncode)
