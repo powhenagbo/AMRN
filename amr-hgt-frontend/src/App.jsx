@@ -5,6 +5,9 @@ import {
 } from "lucide-react";
 
 // Point this at wherever the Flask backend is actually running.
+// Reads VITE_API_BASE_URL at build time (set in Vercel's Environment
+// Variables for production), falling back to localhost for local dev
+// when that var isn't set.
 const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:5050";
 
 // ── Shared job-runner hook ──────────────────────────────────────────────
@@ -625,6 +628,13 @@ export default function AMRDashboard() {
   const [detector, setDetector] = useState("rgi");
   const analyzeJob = useJobRunner();
 
+  // Optional: a pre-computed RGI/AMRFinder output file, generated locally
+  // (e.g. `rgi main` run on your own machine where memory isn't
+  // constrained). When set, the server skips running the detector itself
+  // — no RGI/AMRFinder subprocess, no memory spike on Render — and just
+  // parses this file, then runs the lightweight downstream steps.
+  const [precomputedFile, setPrecomputedFile] = useState(null);
+
   const [panelMeta, setPanelMeta] = useState(null);
   const [selected, setSelected] = useState(null);
   const [hovered, setHovered] = useState(null);
@@ -663,6 +673,7 @@ export default function AMRDashboard() {
   const [modelsLoading, setModelsLoading] = useState(false);
 
   const fileInputRef = useRef(null);
+  const precomputedFileInputRef = useRef(null);
 
   const genes = analyzeJob.result?.genes || [];
   const islands = analyzeJob.result?.islands || [];
@@ -938,6 +949,22 @@ export default function AMRDashboard() {
       const uploadData = await uploadRes.json();
       if (!uploadRes.ok) throw new Error(uploadData.error || "Upload failed");
 
+      // If a pre-computed RGI/AMRFinder output was provided, upload it
+      // too — the backend will detect it's attached to this job_id and
+      // skip running the detector itself.
+      if (precomputedFile) {
+        const detectorFormData = new FormData();
+        detectorFormData.append("file", precomputedFile);
+        const detectorUploadRes = await fetch(
+          `${API_BASE}/jobs/${uploadData.job_id}/upload-detector-output`,
+          { method: "POST", body: detectorFormData }
+        );
+        const detectorUploadData = await detectorUploadRes.json();
+        if (!detectorUploadRes.ok) {
+          throw new Error(detectorUploadData.error || "Failed to upload detector output");
+        }
+      }
+
       const startRes = await fetch(`${API_BASE}/jobs/${uploadData.job_id}/start`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -1179,6 +1206,58 @@ export default function AMRDashboard() {
               <span style={{ fontSize: 13, color: file ? "#E7ECF3" : "#4B5A73", fontFamily: "'IBM Plex Mono', monospace" }}>
                 {file ? file.name : "No file selected"}
               </span>
+            </div>
+
+            <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+              <input
+                ref={precomputedFileInputRef}
+                type="file"
+                accept=".txt,.tsv"
+                onChange={(e) => setPrecomputedFile(e.target.files?.[0] || null)}
+                style={{ display: "none" }}
+              />
+              <button
+                onClick={() => precomputedFileInputRef.current?.click()}
+                disabled={isAnalyzeBusy}
+                title="Optional: upload an already-computed RGI/AMRFinder output file (e.g. run locally) to skip running the detector on the server"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 8,
+                  padding: "9px 16px",
+                  borderRadius: 6,
+                  border: "1px solid #2A3B5C",
+                  background: precomputedFile ? "rgba(232,163,61,0.12)" : "#131C2E",
+                  color: precomputedFile ? "#E8A33D" : "#E7ECF3",
+                  fontSize: 13,
+                  fontFamily: "'IBM Plex Mono', monospace",
+                  cursor: isAnalyzeBusy ? "not-allowed" : "pointer",
+                  opacity: isAnalyzeBusy ? 0.5 : 1,
+                }}
+              >
+                <Upload size={14} />
+                Detector output (optional)
+              </button>
+              <span style={{ fontSize: 13, color: precomputedFile ? "#E7ECF3" : "#4B5A73", fontFamily: "'IBM Plex Mono', monospace" }}>
+                {precomputedFile ? precomputedFile.name : "Run RGI/AMRFinder server-side"}
+              </span>
+              {precomputedFile && (
+                <button
+                  onClick={() => { setPrecomputedFile(null); if (precomputedFileInputRef.current) precomputedFileInputRef.current.value = ""; }}
+                  disabled={isAnalyzeBusy}
+                  style={{
+                    fontSize: 12,
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    color: "#8592A6",
+                    background: "transparent",
+                    border: "none",
+                    cursor: isAnalyzeBusy ? "not-allowed" : "pointer",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Clear
+                </button>
+              )}
             </div>
 
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
