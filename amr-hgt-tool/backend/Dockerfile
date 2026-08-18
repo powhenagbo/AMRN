@@ -66,4 +66,15 @@ COPY . .
 ENV PORT=10000
 EXPOSE 10000
 
-CMD gunicorn --bind 0.0.0.0:$PORT --timeout 300 app:app
+# --workers 1 --threads 8: a single sync worker holds the whole process
+# hostage for the entire duration of any /jobs/<id>/stream SSE
+# connection (it blocks in a time.sleep loop for as long as a job runs,
+# often several minutes on a real genome) — during that time NOTHING
+# else can be served, not other users' requests, not even Render's
+# health checks, and gunicorn's own --timeout eventually kills the
+# worker mid-stream (seen as "WORKER TIMEOUT" / SIGKILL in the logs).
+# Threads let the same process interleave multiple requests — Python
+# releases the GIL during time.sleep()/I/O, so one job's progress
+# stream no longer blocks everyone else. --timeout raised to give a
+# real end-to-end pipeline run room to finish without getting killed.
+CMD gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 1800 app:app
